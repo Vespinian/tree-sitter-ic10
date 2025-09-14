@@ -1,12 +1,12 @@
 (comment)@comment
 (instruction (operation)@keyword)
-(logictype)@constant.macro
+(logictype)@operator
 (constant)@constant.builtin
-(device)@variable.builtin
-(register)@variable.parameter
-(number)@number.float
+(device)@character
+(register)@markup.link.url
+(number)@punctuation.special
 (identifier)@variable
 (hash_preproc)@function.macro
 (hash_preproc string: (preproc_string) @string)
 (enum)@type.builtin
-(label)@function
+(label (identifier)@attribute)@attribute

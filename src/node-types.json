@@ -1799,6 +1799,10 @@
     "named": false
   },
   {
+    "type": "lerp",
+    "named": false
+  },
+  {
     "type": "log",
     "named": false
   },

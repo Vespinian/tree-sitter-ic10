@@ -81,6 +81,7 @@ lbn
 lbns
 lbs
 ld
+lerp
 log
 lr
 ls

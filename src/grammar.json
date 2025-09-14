@@ -770,6 +770,10 @@
         },
         {
           "type": "STRING",
+          "value": "lerp"
+        },
+        {
+          "type": "STRING",
           "value": "log"
         },
         {
@@ -4274,5 +4278,6 @@
   "precedences": [],
   "externals": [],
   "inline": [],
-  "supertypes": []
+  "supertypes": [],
+  "reserved": {}
 }
