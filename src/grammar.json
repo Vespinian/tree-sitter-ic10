@@ -494,6 +494,14 @@
         },
         {
           "type": "STRING",
+          "value": "bdnvl"
+        },
+        {
+          "type": "STRING",
+          "value": "bdnvs"
+        },
+        {
+          "type": "STRING",
           "value": "bdse"
         },
         {
@@ -698,6 +706,14 @@
         },
         {
           "type": "STRING",
+          "value": "clr"
+        },
+        {
+          "type": "STRING",
+          "value": "clrd"
+        },
+        {
+          "type": "STRING",
           "value": "cos"
         },
         {
@@ -714,6 +730,10 @@
         },
         {
           "type": "STRING",
+          "value": "ext"
+        },
+        {
+          "type": "STRING",
           "value": "floor"
         },
         {
@@ -727,6 +747,10 @@
         {
           "type": "STRING",
           "value": "hcf"
+        },
+        {
+          "type": "STRING",
+          "value": "ins"
         },
         {
           "type": "STRING",
@@ -830,6 +854,10 @@
         },
         {
           "type": "STRING",
+          "value": "pow"
+        },
+        {
+          "type": "STRING",
           "value": "push"
         },
         {
@@ -843,6 +871,10 @@
         {
           "type": "STRING",
           "value": "rand"
+        },
+        {
+          "type": "STRING",
+          "value": "rmap"
         },
         {
           "type": "STRING",
@@ -1071,7 +1103,15 @@
           },
           {
             "type": "STRING",
-            "value": "Bpm"
+            "value": "Altitude"
+          },
+          {
+            "type": "STRING",
+            "value": "BestContactFilter"
+          },
+          {
+            "type": "STRING",
+            "value": "BBpm"
           },
           {
             "type": "STRING",
@@ -4262,6 +4302,14 @@
             {
               "type": "STRING",
               "value": "PlantHealth4"
+            },
+            {
+              "type": "STRING",
+              "value": "ld"
+            },
+            {
+              "type": "STRING",
+              "value": "sd"
             }
           ]
         }

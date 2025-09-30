@@ -299,6 +299,10 @@
     "named": false
   },
   {
+    "type": "Altitude",
+    "named": false
+  },
+  {
     "type": "Apex",
     "named": false
   },
@@ -315,7 +319,11 @@
     "named": false
   },
   {
-    "type": "Bpm",
+    "type": "BBpm",
+    "named": false
+  },
+  {
+    "type": "BestContactFilter",
     "named": false
   },
   {
@@ -1495,6 +1503,14 @@
     "named": false
   },
   {
+    "type": "bdnvl",
+    "named": false
+  },
+  {
+    "type": "bdnvs",
+    "named": false
+  },
+  {
     "type": "bdse",
     "named": false
   },
@@ -1699,6 +1715,14 @@
     "named": false
   },
   {
+    "type": "clr",
+    "named": false
+  },
+  {
+    "type": "clrd",
+    "named": false
+  },
+  {
     "type": "cos",
     "named": false
   },
@@ -1735,6 +1759,10 @@
     "named": false
   },
   {
+    "type": "ext",
+    "named": false
+  },
+  {
     "type": "floor",
     "named": false
   },
@@ -1753,6 +1781,10 @@
   {
     "type": "identifier",
     "named": true
+  },
+  {
+    "type": "ins",
+    "named": false
   },
   {
     "type": "invalid_instruction",
@@ -1879,6 +1911,10 @@
     "named": false
   },
   {
+    "type": "pow",
+    "named": false
+  },
+  {
     "type": "preproc_string",
     "named": true
   },
@@ -1905,6 +1941,10 @@
   {
     "type": "register",
     "named": true
+  },
+  {
+    "type": "rmap",
+    "named": false
   },
   {
     "type": "round",

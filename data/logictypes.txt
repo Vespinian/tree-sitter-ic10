@@ -5,7 +5,9 @@ AlignmentError
 Apex
 AutoLand
 AutoShutOff
-Bpm
+Altitude
+BestContactFilter
+BBpm
 BurnTimeRemaining
 CelestialHash
 CelestialParentHash

@@ -1,5 +1,5 @@
 (comment)@comment
-(instruction (operation)@keyword)
+(instruction (operation)@lsp.type.type)
 (logictype)@operator
 (constant)@constant.builtin
 (device)@character
