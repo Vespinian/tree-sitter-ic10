@@ -319,11 +319,11 @@
     "named": false
   },
   {
-    "type": "BBpm",
+    "type": "BestContactFilter",
     "named": false
   },
   {
-    "type": "BestContactFilter",
+    "type": "Bpm",
     "named": false
   },
   {
@@ -455,6 +455,10 @@
     "named": false
   },
   {
+    "type": "DerivativeGain",
+    "named": false
+  },
+  {
     "type": "DestinationCode",
     "named": false
   },
@@ -527,6 +531,10 @@
     "named": false
   },
   {
+    "type": "Extended",
+    "named": false
+  },
+  {
     "type": "FilterType",
     "named": false
   },
@@ -575,6 +583,10 @@
     "named": false
   },
   {
+    "type": "HarvestedHash",
+    "named": false
+  },
+  {
     "type": "Health",
     "named": false
   },
@@ -615,6 +627,10 @@
     "named": false
   },
   {
+    "type": "IntegralGain",
+    "named": false
+  },
+  {
     "type": "InterrogationProgress",
     "named": false
   },
@@ -636,6 +652,10 @@
   },
   {
     "type": "Mature",
+    "named": false
+  },
+  {
+    "type": "MaturityRatio",
     "named": false
   },
   {
@@ -671,7 +691,15 @@
     "named": false
   },
   {
+    "type": "NameHash",
+    "named": false
+  },
+  {
     "type": "NavPoints",
+    "named": false
+  },
+  {
+    "type": "NetworkFault",
     "named": false
   },
   {
@@ -868,6 +896,10 @@
   },
   {
     "type": "Progress",
+    "named": false
+  },
+  {
+    "type": "ProportionalGain",
     "named": false
   },
   {
@@ -1203,6 +1235,10 @@
     "named": false
   },
   {
+    "type": "Reset",
+    "named": false
+  },
+  {
     "type": "ReturnFuelCost",
     "named": false
   },
@@ -1219,7 +1255,15 @@
     "named": false
   },
   {
+    "type": "SeedingRatio",
+    "named": false
+  },
+  {
     "type": "SemiMajorAxis",
+    "named": false
+  },
+  {
+    "type": "Setpoint",
     "named": false
   },
   {
@@ -1279,6 +1323,10 @@
     "named": false
   },
   {
+    "type": "StackSize",
+    "named": false
+  },
+  {
     "type": "Stress",
     "named": false
   },
@@ -1292,6 +1340,14 @@
   },
   {
     "type": "TargetPadIndex",
+    "named": false
+  },
+  {
+    "type": "TargetPrefabHash",
+    "named": false
+  },
+  {
+    "type": "TargetSlotIndex",
     "named": false
   },
   {

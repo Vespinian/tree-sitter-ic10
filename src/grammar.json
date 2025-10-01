@@ -1091,6 +1091,10 @@
           },
           {
             "type": "STRING",
+            "value": "Altitude"
+          },
+          {
+            "type": "STRING",
             "value": "Apex"
           },
           {
@@ -1103,15 +1107,11 @@
           },
           {
             "type": "STRING",
-            "value": "Altitude"
-          },
-          {
-            "type": "STRING",
             "value": "BestContactFilter"
           },
           {
             "type": "STRING",
-            "value": "BBpm"
+            "value": "Bpm"
           },
           {
             "type": "STRING",
@@ -1227,6 +1227,10 @@
           },
           {
             "type": "STRING",
+            "value": "DerivativeGain"
+          },
+          {
+            "type": "STRING",
             "value": "DestinationCode"
           },
           {
@@ -1292,6 +1296,10 @@
           {
             "type": "STRING",
             "value": "ExportSlotOccupant"
+          },
+          {
+            "type": "STRING",
+            "value": "Extended"
           },
           {
             "type": "STRING",
@@ -1367,6 +1375,10 @@
           },
           {
             "type": "STRING",
+            "value": "IntegralGain"
+          },
+          {
+            "type": "STRING",
             "value": "InterrogationProgress"
           },
           {
@@ -1403,6 +1415,10 @@
           },
           {
             "type": "STRING",
+            "value": "Minimum"
+          },
+          {
+            "type": "STRING",
             "value": "MinimumWattsToContact"
           },
           {
@@ -1411,7 +1427,15 @@
           },
           {
             "type": "STRING",
+            "value": "NameHash"
+          },
+          {
+            "type": "STRING",
             "value": "NavPoints"
+          },
+          {
+            "type": "STRING",
+            "value": "NetworkFault"
           },
           {
             "type": "STRING",
@@ -1592,6 +1616,10 @@
           {
             "type": "STRING",
             "value": "Progress"
+          },
+          {
+            "type": "STRING",
+            "value": "ProportionalGain"
           },
           {
             "type": "STRING",
@@ -1919,6 +1947,10 @@
           },
           {
             "type": "STRING",
+            "value": "Reset"
+          },
+          {
+            "type": "STRING",
             "value": "ReturnFuelCost"
           },
           {
@@ -1932,6 +1964,10 @@
           {
             "type": "STRING",
             "value": "SemiMajorAxis"
+          },
+          {
+            "type": "STRING",
+            "value": "Setpoint"
           },
           {
             "type": "STRING",
@@ -1987,6 +2023,10 @@
           },
           {
             "type": "STRING",
+            "value": "StackSize"
+          },
+          {
+            "type": "STRING",
             "value": "Stress"
           },
           {
@@ -1996,6 +2036,14 @@
           {
             "type": "STRING",
             "value": "TargetPadIndex"
+          },
+          {
+            "type": "STRING",
+            "value": "TargetPrefabHash"
+          },
+          {
+            "type": "STRING",
+            "value": "TargetSlotIndex"
           },
           {
             "type": "STRING",
@@ -2181,6 +2229,10 @@
         },
         {
           "type": "STRING",
+          "value": "HarvestedHash"
+        },
+        {
+          "type": "STRING",
           "value": "Health"
         },
         {
@@ -2197,7 +2249,15 @@
         },
         {
           "type": "STRING",
+          "value": "MaturityRatio"
+        },
+        {
+          "type": "STRING",
           "value": "MaxQuantity"
+        },
+        {
+          "type": "STRING",
+          "value": "Mode"
         },
         {
           "type": "STRING",
@@ -2246,6 +2306,10 @@
         {
           "type": "STRING",
           "value": "Seeding"
+        },
+        {
+          "type": "STRING",
+          "value": "SeedingRatio"
         },
         {
           "type": "STRING",
@@ -2385,6 +2449,18 @@
             },
             {
               "type": "STRING",
+              "value": "ContactTier.Close"
+            },
+            {
+              "type": "STRING",
+              "value": "ContactTier.Far"
+            },
+            {
+              "type": "STRING",
+              "value": "ContactTier.Medium"
+            },
+            {
+              "type": "STRING",
               "value": "DaylightSensorMode.Default"
             },
             {
@@ -2394,6 +2470,66 @@
             {
               "type": "STRING",
               "value": "DaylightSensorMode.Vertical"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Celsius"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Credits"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Days"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Default"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Fahrenheit"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Kelvin"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Litres"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Meters"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Minutes"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Mol"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Pa"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Percent"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Power"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Seconds"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.String"
             },
             {
               "type": "STRING",
@@ -2429,7 +2565,15 @@
             },
             {
               "type": "STRING",
+              "value": "GasType.Air"
+            },
+            {
+              "type": "STRING",
               "value": "GasType.CarbonDioxide"
+            },
+            {
+              "type": "STRING",
+              "value": "GasType.Fuel"
             },
             {
               "type": "STRING",
@@ -2505,6 +2649,14 @@
             },
             {
               "type": "STRING",
+              "value": "HashType.GasLiquid"
+            },
+            {
+              "type": "STRING",
+              "value": "HashType.Prefab"
+            },
+            {
+              "type": "STRING",
               "value": "Less"
             },
             {
@@ -2537,6 +2689,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicSlotType.HarvestedHash"
+            },
+            {
+              "type": "STRING",
               "value": "LogicSlotType.Health"
             },
             {
@@ -2553,7 +2709,15 @@
             },
             {
               "type": "STRING",
+              "value": "LogicSlotType.MaturityRatio"
+            },
+            {
+              "type": "STRING",
               "value": "LogicSlotType.MaxQuantity"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicSlotType.Mode"
             },
             {
               "type": "STRING",
@@ -2605,6 +2769,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicSlotType.SeedingRatio"
+            },
+            {
+              "type": "STRING",
               "value": "LogicSlotType.SortingClass"
             },
             {
@@ -2633,6 +2801,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.Altitude"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.Apex"
             },
             {
@@ -2642,6 +2814,10 @@
             {
               "type": "STRING",
               "value": "LogicType.AutoShutOff"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.BestContactFilter"
             },
             {
               "type": "STRING",
@@ -2761,6 +2937,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.DerivativeGain"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.DestinationCode"
             },
             {
@@ -2826,6 +3006,10 @@
             {
               "type": "STRING",
               "value": "LogicType.ExportSlotOccupant"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.Extended"
             },
             {
               "type": "STRING",
@@ -2901,6 +3085,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.IntegralGain"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.InterrogationProgress"
             },
             {
@@ -2937,6 +3125,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.Minimum"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.MinimumWattsToContact"
             },
             {
@@ -2945,7 +3137,15 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.NameHash"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.NavPoints"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.NetworkFault"
             },
             {
               "type": "STRING",
@@ -3126,6 +3326,10 @@
             {
               "type": "STRING",
               "value": "LogicType.Progress"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.ProportionalGain"
             },
             {
               "type": "STRING",
@@ -3453,6 +3657,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.Reset"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.ReturnFuelCost"
             },
             {
@@ -3466,6 +3674,10 @@
             {
               "type": "STRING",
               "value": "LogicType.SemiMajorAxis"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.Setpoint"
             },
             {
               "type": "STRING",
@@ -3521,6 +3733,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.StackSize"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.Stress"
             },
             {
@@ -3530,6 +3746,14 @@
             {
               "type": "STRING",
               "value": "LogicType.TargetPadIndex"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.TargetPrefabHash"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.TargetSlotIndex"
             },
             {
               "type": "STRING",
@@ -3705,6 +3929,66 @@
             },
             {
               "type": "STRING",
+              "value": "PrinterInstruction.DeviceSetLock"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.EjectAllReagents"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.EjectReagent"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.ExecuteRecipe"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.JumpIfNextInvalid"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.JumpToAddress"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.MissingRecipeReagent"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.None"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.StackPointer"
+            },
+            {
+              "type": "STRING",
+              "value": "PrinterInstruction.WaitUntilNextValid"
+            },
+            {
+              "type": "STRING",
+              "value": "ReEntryProfile.High"
+            },
+            {
+              "type": "STRING",
+              "value": "ReEntryProfile.Low"
+            },
+            {
+              "type": "STRING",
+              "value": "ReEntryProfile.Max"
+            },
+            {
+              "type": "STRING",
+              "value": "ReEntryProfile.Medium"
+            },
+            {
+              "type": "STRING",
+              "value": "ReEntryProfile.None"
+            },
+            {
+              "type": "STRING",
               "value": "RobotMode.Follow"
             },
             {
@@ -3730,6 +4014,78 @@
             {
               "type": "STRING",
               "value": "RobotMode.Unload"
+            },
+            {
+              "type": "STRING",
+              "value": "RocketMode.Chart"
+            },
+            {
+              "type": "STRING",
+              "value": "RocketMode.Deploy"
+            },
+            {
+              "type": "STRING",
+              "value": "RocketMode.Discover"
+            },
+            {
+              "type": "STRING",
+              "value": "RocketMode.Invalid"
+            },
+            {
+              "type": "STRING",
+              "value": "RocketMode.Mine"
+            },
+            {
+              "type": "STRING",
+              "value": "RocketMode.None"
+            },
+            {
+              "type": "STRING",
+              "value": "RocketMode.Survey"
+            },
+            {
+              "type": "STRING",
+              "value": "SettingDisplayMode.Number"
+            },
+            {
+              "type": "STRING",
+              "value": "SettingDisplayMode.String"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.Large"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.LargeGas"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.LargePlane"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.Medium"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.MediumGas"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.MediumPlane"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.None"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.Small"
+            },
+            {
+              "type": "STRING",
+              "value": "ShuttleType.SmallGas"
             },
             {
               "type": "STRING",
@@ -3770,6 +4126,10 @@
             {
               "type": "STRING",
               "value": "SlotClass.Circuitboard"
+            },
+            {
+              "type": "STRING",
+              "value": "SlotClass.Crate"
             },
             {
               "type": "STRING",
@@ -3853,7 +4213,15 @@
             },
             {
               "type": "STRING",
+              "value": "SlotClass.Portables"
+            },
+            {
+              "type": "STRING",
               "value": "SlotClass.ProgrammableChip"
+            },
+            {
+              "type": "STRING",
+              "value": "SlotClass.RocketPayload"
             },
             {
               "type": "STRING",
@@ -3873,6 +4241,10 @@
             },
             {
               "type": "STRING",
+              "value": "SlotClass.SuitMod"
+            },
+            {
+              "type": "STRING",
               "value": "SlotClass.Tool"
             },
             {
@@ -3886,6 +4258,34 @@
             {
               "type": "STRING",
               "value": "SlotClass.Wreckage"
+            },
+            {
+              "type": "STRING",
+              "value": "SorterInstruction.FilterPrefabHashEquals"
+            },
+            {
+              "type": "STRING",
+              "value": "SorterInstruction.FilterPrefabHashNotEquals"
+            },
+            {
+              "type": "STRING",
+              "value": "SorterInstruction.FilterQuantityCompare"
+            },
+            {
+              "type": "STRING",
+              "value": "SorterInstruction.FilterSlotTypeCompare"
+            },
+            {
+              "type": "STRING",
+              "value": "SorterInstruction.FilterSortingClassCompare"
+            },
+            {
+              "type": "STRING",
+              "value": "SorterInstruction.LimitNextExecutionByCount"
+            },
+            {
+              "type": "STRING",
+              "value": "SorterInstruction.None"
             },
             {
               "type": "STRING",
@@ -4114,6 +4514,82 @@
             {
               "type": "STRING",
               "value": "Sound.Welcome"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.FilterGasContains"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.FilterGasNotContains"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.FilterPrefabHashEquals"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.FilterPrefabHashNotEquals"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.FilterQuantityCompare"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.FilterSortingClassCompare"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.None"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.StrongestContactIdHash"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.StrongestContactMetaData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.StrongestContactSignalData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.TraderBuyGasData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.TraderBuyThingChildData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.TraderBuyThingData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.TraderSellGasData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.TraderSellThingChildData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.TraderSellThingData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.WriteTraderBuyData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.WriteTraderData"
+            },
+            {
+              "type": "STRING",
+              "value": "TraderInstruction.WriteTraderSellData"
             },
             {
               "type": "STRING",

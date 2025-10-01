@@ -2,12 +2,12 @@ Acceleration
 Activate
 AirRelease
 AlignmentError
+Altitude
 Apex
 AutoLand
 AutoShutOff
-Altitude
 BestContactFilter
-BBpm
+Bpm
 BurnTimeRemaining
 CelestialHash
 CelestialParentHash
@@ -36,6 +36,7 @@ ContactTypeId
 CurrentCode
 CurrentResearchPodType
 Density
+DerivativeGain
 DestinationCode
 Discover
 DistanceAu
@@ -53,6 +54,7 @@ ExportCount
 ExportQuantity
 ExportSlotHash
 ExportSlotOccupant
+Extended
 Filtration
 FlightControlRule
 Flush
@@ -71,6 +73,7 @@ ImportSlotHash
 ImportSlotOccupant
 Inclination
 Index
+IntegralGain
 InterrogationProgress
 LineNumber
 Lock
@@ -80,9 +83,12 @@ Maximum
 MineablesInQueue
 MineablesInVicinity
 MinedQuantity
+Minimum
 MinimumWattsToContact
 Mode
+NameHash
 NavPoints
+NetworkFault
 NextWeatherEventTime
 None
 On
@@ -128,6 +134,7 @@ PressureOutput
 PressureOutput2
 PressureSetting
 Progress
+ProportionalGain
 Quantity
 Ratio
 RatioCarbonDioxide
@@ -209,10 +216,12 @@ RecipeHash
 ReferenceId
 RequestHash
 RequiredPower
+Reset
 ReturnFuelCost
 Richness
 Rpm
 SemiMajorAxis
+Setpoint
 Setting
 SettingInput
 SettingOutput
@@ -226,9 +235,12 @@ SizeZ
 SolarAngle
 SolarIrradiance
 SoundAlert
+StackSize
 Stress
 Survey
 TargetPadIndex
+TargetPrefabHash
+TargetSlotIndex
 TargetX
 TargetY
 TargetZ
