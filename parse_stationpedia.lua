@@ -8,6 +8,7 @@ table.sort(operations)
 -- print(vim.inspect(operations))
 vim.fn.writefile(operations, "data/operations.txt")
 
+local json = vim.fn.json_decode(vim.fn.readfile("./Enums.json"))
 local logictypes = {}
 for index, _ in pairs(json.scriptEnums.LogicType.values) do
 	table.insert(logictypes, index)
