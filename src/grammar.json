@@ -1236,6 +1236,10 @@
           },
           {
             "type": "STRING",
+            "value": "ContactSlotIndex"
+          },
+          {
+            "type": "STRING",
             "value": "ContactTypeId"
           },
           {
@@ -1465,6 +1469,10 @@
           {
             "type": "STRING",
             "value": "NextWeatherEventTime"
+          },
+          {
+            "type": "STRING",
+            "value": "NextWeatherHash"
           },
           {
             "type": "STRING",
@@ -2250,6 +2258,10 @@
         },
         {
           "type": "STRING",
+          "value": "FreeSlots"
+        },
+        {
+          "type": "STRING",
           "value": "Growth"
         },
         {
@@ -2343,6 +2355,10 @@
         {
           "type": "STRING",
           "value": "Temperature"
+        },
+        {
+          "type": "STRING",
+          "value": "TotalSlots"
         },
         {
           "type": "STRING",
@@ -2474,18 +2490,6 @@
             },
             {
               "type": "STRING",
-              "value": "ContactTier.Close"
-            },
-            {
-              "type": "STRING",
-              "value": "ContactTier.Far"
-            },
-            {
-              "type": "STRING",
-              "value": "ContactTier.Medium"
-            },
-            {
-              "type": "STRING",
               "value": "DaylightSensorMode.Default"
             },
             {
@@ -2514,6 +2518,10 @@
             },
             {
               "type": "STRING",
+              "value": "DisplayMode.Degrees"
+            },
+            {
+              "type": "STRING",
               "value": "DisplayMode.Fahrenheit"
             },
             {
@@ -2535,6 +2543,10 @@
             {
               "type": "STRING",
               "value": "DisplayMode.Mol"
+            },
+            {
+              "type": "STRING",
+              "value": "DisplayMode.Newtons"
             },
             {
               "type": "STRING",
@@ -2710,6 +2722,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicSlotType.FreeSlots"
+            },
+            {
+              "type": "STRING",
               "value": "LogicSlotType.Growth"
             },
             {
@@ -2803,6 +2819,10 @@
             {
               "type": "STRING",
               "value": "LogicSlotType.Temperature"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicSlotType.TotalSlots"
             },
             {
               "type": "STRING",
@@ -2943,6 +2963,10 @@
             {
               "type": "STRING",
               "value": "LogicType.CompletionRatio"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.ContactSlotIndex"
             },
             {
               "type": "STRING",
@@ -3175,6 +3199,10 @@
             {
               "type": "STRING",
               "value": "LogicType.NextWeatherEventTime"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.NextWeatherHash"
             },
             {
               "type": "STRING",

@@ -4,6 +4,7 @@ Class
 Damage
 Efficiency
 FilterType
+FreeSlots
 Growth
 HarvestedHash
 Health
@@ -28,4 +29,5 @@ Seeding
 SeedingRatio
 SortingClass
 Temperature
+TotalSlots
 Volume

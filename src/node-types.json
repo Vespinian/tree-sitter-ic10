@@ -451,6 +451,10 @@
     "named": false
   },
   {
+    "type": "ContactSlotIndex",
+    "named": false
+  },
+  {
     "type": "ContactTypeId",
     "named": false
   },
@@ -584,6 +588,10 @@
   },
   {
     "type": "ForwardZ",
+    "named": false
+  },
+  {
+    "type": "FreeSlots",
     "named": false
   },
   {
@@ -724,6 +732,10 @@
   },
   {
     "type": "NextWeatherEventTime",
+    "named": false
+  },
+  {
+    "type": "NextWeatherHash",
     "named": false
   },
   {
@@ -1464,6 +1476,10 @@
   },
   {
     "type": "TotalQuantity",
+    "named": false
+  },
+  {
+    "type": "TotalSlots",
     "named": false
   },
   {

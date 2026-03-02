@@ -32,6 +32,7 @@ CombustionLimiter
 CombustionOutput
 CombustionOutput2
 CompletionRatio
+ContactSlotIndex
 ContactTypeId
 CurrentCode
 CurrentResearchPodType
@@ -90,6 +91,7 @@ NameHash
 NavPoints
 NetworkFault
 NextWeatherEventTime
+NextWeatherHash
 None
 On
 Open
