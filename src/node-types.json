@@ -963,7 +963,23 @@
     "named": false
   },
   {
+    "type": "RatioHelium",
+    "named": false
+  },
+  {
+    "type": "RatioHydrazine",
+    "named": false
+  },
+  {
+    "type": "RatioHydrochloricAcid",
+    "named": false
+  },
+  {
     "type": "RatioHydrogen",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidAlcohol",
     "named": false
   },
   {
@@ -987,7 +1003,35 @@
     "named": false
   },
   {
+    "type": "RatioLiquidHydrazine",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrochloricAcid",
+    "named": false
+  },
+  {
     "type": "RatioLiquidHydrogen",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidMethane",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidMethaneInput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidMethaneInput2",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidMethaneOutput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidMethaneOutput2",
     "named": false
   },
   {
@@ -1051,6 +1095,10 @@
     "named": false
   },
   {
+    "type": "RatioLiquidOzone",
+    "named": false
+  },
+  {
     "type": "RatioLiquidPollutant",
     "named": false
   },
@@ -1071,23 +1119,31 @@
     "named": false
   },
   {
-    "type": "RatioLiquidVolatiles",
+    "type": "RatioLiquidSilanol",
     "named": false
   },
   {
-    "type": "RatioLiquidVolatilesInput",
+    "type": "RatioLiquidSodiumChloride",
     "named": false
   },
   {
-    "type": "RatioLiquidVolatilesInput2",
+    "type": "RatioMethane",
     "named": false
   },
   {
-    "type": "RatioLiquidVolatilesOutput",
+    "type": "RatioMethaneInput",
     "named": false
   },
   {
-    "type": "RatioLiquidVolatilesOutput2",
+    "type": "RatioMethaneInput2",
+    "named": false
+  },
+  {
+    "type": "RatioMethaneOutput",
+    "named": false
+  },
+  {
+    "type": "RatioMethaneOutput2",
     "named": false
   },
   {
@@ -1151,6 +1207,10 @@
     "named": false
   },
   {
+    "type": "RatioOzone",
+    "named": false
+  },
+  {
     "type": "RatioPollutant",
     "named": false
   },
@@ -1175,6 +1235,10 @@
     "named": false
   },
   {
+    "type": "RatioSilanol",
+    "named": false
+  },
+  {
     "type": "RatioSteam",
     "named": false
   },
@@ -1192,26 +1256,6 @@
   },
   {
     "type": "RatioSteamOutput2",
-    "named": false
-  },
-  {
-    "type": "RatioVolatiles",
-    "named": false
-  },
-  {
-    "type": "RatioVolatilesInput",
-    "named": false
-  },
-  {
-    "type": "RatioVolatilesInput2",
-    "named": false
-  },
-  {
-    "type": "RatioVolatilesOutput",
-    "named": false
-  },
-  {
-    "type": "RatioVolatilesOutput2",
     "named": false
   },
   {

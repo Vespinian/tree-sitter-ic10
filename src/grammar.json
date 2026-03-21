@@ -1684,7 +1684,23 @@
           },
           {
             "type": "STRING",
+            "value": "RatioHelium"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioHydrazine"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioHydrochloricAcid"
+          },
+          {
+            "type": "STRING",
             "value": "RatioHydrogen"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioLiquidAlcohol"
           },
           {
             "type": "STRING",
@@ -1708,7 +1724,35 @@
           },
           {
             "type": "STRING",
+            "value": "RatioLiquidHydrazine"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioLiquidHydrochloricAcid"
+          },
+          {
+            "type": "STRING",
             "value": "RatioLiquidHydrogen"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioLiquidMethane"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioLiquidMethaneInput"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioLiquidMethaneInput2"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioLiquidMethaneOutput"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioLiquidMethaneOutput2"
           },
           {
             "type": "STRING",
@@ -1772,6 +1816,10 @@
           },
           {
             "type": "STRING",
+            "value": "RatioLiquidOzone"
+          },
+          {
+            "type": "STRING",
             "value": "RatioLiquidPollutant"
           },
           {
@@ -1792,23 +1840,31 @@
           },
           {
             "type": "STRING",
-            "value": "RatioLiquidVolatiles"
+            "value": "RatioLiquidSilanol"
           },
           {
             "type": "STRING",
-            "value": "RatioLiquidVolatilesInput"
+            "value": "RatioLiquidSodiumChloride"
           },
           {
             "type": "STRING",
-            "value": "RatioLiquidVolatilesInput2"
+            "value": "RatioMethane"
           },
           {
             "type": "STRING",
-            "value": "RatioLiquidVolatilesOutput"
+            "value": "RatioMethaneInput"
           },
           {
             "type": "STRING",
-            "value": "RatioLiquidVolatilesOutput2"
+            "value": "RatioMethaneInput2"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioMethaneOutput"
+          },
+          {
+            "type": "STRING",
+            "value": "RatioMethaneOutput2"
           },
           {
             "type": "STRING",
@@ -1872,6 +1928,10 @@
           },
           {
             "type": "STRING",
+            "value": "RatioOzone"
+          },
+          {
+            "type": "STRING",
             "value": "RatioPollutant"
           },
           {
@@ -1896,6 +1956,10 @@
           },
           {
             "type": "STRING",
+            "value": "RatioSilanol"
+          },
+          {
+            "type": "STRING",
             "value": "RatioSteam"
           },
           {
@@ -1913,26 +1977,6 @@
           {
             "type": "STRING",
             "value": "RatioSteamOutput2"
-          },
-          {
-            "type": "STRING",
-            "value": "RatioVolatiles"
-          },
-          {
-            "type": "STRING",
-            "value": "RatioVolatilesInput"
-          },
-          {
-            "type": "STRING",
-            "value": "RatioVolatilesInput2"
-          },
-          {
-            "type": "STRING",
-            "value": "RatioVolatilesOutput"
-          },
-          {
-            "type": "STRING",
-            "value": "RatioVolatilesOutput2"
           },
           {
             "type": "STRING",
@@ -2614,7 +2658,23 @@
             },
             {
               "type": "STRING",
+              "value": "GasType.Helium"
+            },
+            {
+              "type": "STRING",
+              "value": "GasType.Hydrazine"
+            },
+            {
+              "type": "STRING",
+              "value": "GasType.HydrochloricAcid"
+            },
+            {
+              "type": "STRING",
               "value": "GasType.Hydrogen"
+            },
+            {
+              "type": "STRING",
+              "value": "GasType.LiquidAlcohol"
             },
             {
               "type": "STRING",
@@ -2622,7 +2682,19 @@
             },
             {
               "type": "STRING",
+              "value": "GasType.LiquidHydrazine"
+            },
+            {
+              "type": "STRING",
+              "value": "GasType.LiquidHydrochloricAcid"
+            },
+            {
+              "type": "STRING",
               "value": "GasType.LiquidHydrogen"
+            },
+            {
+              "type": "STRING",
+              "value": "GasType.LiquidMethane"
             },
             {
               "type": "STRING",
@@ -2638,11 +2710,23 @@
             },
             {
               "type": "STRING",
+              "value": "GasType.LiquidOzone"
+            },
+            {
+              "type": "STRING",
               "value": "GasType.LiquidPollutant"
             },
             {
               "type": "STRING",
-              "value": "GasType.LiquidVolatiles"
+              "value": "GasType.LiquidSilanol"
+            },
+            {
+              "type": "STRING",
+              "value": "GasType.LiquidSodiumChloride"
+            },
+            {
+              "type": "STRING",
+              "value": "GasType.Methane"
             },
             {
               "type": "STRING",
@@ -2658,6 +2742,10 @@
             },
             {
               "type": "STRING",
+              "value": "GasType.Ozone"
+            },
+            {
+              "type": "STRING",
               "value": "GasType.Pollutant"
             },
             {
@@ -2666,15 +2754,15 @@
             },
             {
               "type": "STRING",
+              "value": "GasType.Silanol"
+            },
+            {
+              "type": "STRING",
               "value": "GasType.Steam"
             },
             {
               "type": "STRING",
               "value": "GasType.Undefined"
-            },
-            {
-              "type": "STRING",
-              "value": "GasType.Volatiles"
             },
             {
               "type": "STRING",
@@ -3414,7 +3502,23 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.RatioHelium"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioHydrazine"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioHydrochloricAcid"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.RatioHydrogen"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioLiquidAlcohol"
             },
             {
               "type": "STRING",
@@ -3438,7 +3542,35 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.RatioLiquidHydrazine"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioLiquidHydrochloricAcid"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.RatioLiquidHydrogen"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioLiquidMethane"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioLiquidMethaneInput"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioLiquidMethaneInput2"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioLiquidMethaneOutput"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioLiquidMethaneOutput2"
             },
             {
               "type": "STRING",
@@ -3502,6 +3634,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.RatioLiquidOzone"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.RatioLiquidPollutant"
             },
             {
@@ -3522,23 +3658,31 @@
             },
             {
               "type": "STRING",
-              "value": "LogicType.RatioLiquidVolatiles"
+              "value": "LogicType.RatioLiquidSilanol"
             },
             {
               "type": "STRING",
-              "value": "LogicType.RatioLiquidVolatilesInput"
+              "value": "LogicType.RatioLiquidSodiumChloride"
             },
             {
               "type": "STRING",
-              "value": "LogicType.RatioLiquidVolatilesInput2"
+              "value": "LogicType.RatioMethane"
             },
             {
               "type": "STRING",
-              "value": "LogicType.RatioLiquidVolatilesOutput"
+              "value": "LogicType.RatioMethaneInput"
             },
             {
               "type": "STRING",
-              "value": "LogicType.RatioLiquidVolatilesOutput2"
+              "value": "LogicType.RatioMethaneInput2"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioMethaneOutput"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.RatioMethaneOutput2"
             },
             {
               "type": "STRING",
@@ -3602,6 +3746,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.RatioOzone"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.RatioPollutant"
             },
             {
@@ -3626,6 +3774,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.RatioSilanol"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.RatioSteam"
             },
             {
@@ -3643,26 +3795,6 @@
             {
               "type": "STRING",
               "value": "LogicType.RatioSteamOutput2"
-            },
-            {
-              "type": "STRING",
-              "value": "LogicType.RatioVolatiles"
-            },
-            {
-              "type": "STRING",
-              "value": "LogicType.RatioVolatilesInput"
-            },
-            {
-              "type": "STRING",
-              "value": "LogicType.RatioVolatilesInput2"
-            },
-            {
-              "type": "STRING",
-              "value": "LogicType.RatioVolatilesOutput"
-            },
-            {
-              "type": "STRING",
-              "value": "LogicType.RatioVolatilesOutput2"
             },
             {
               "type": "STRING",
