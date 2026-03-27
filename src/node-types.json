@@ -967,7 +967,39 @@
     "named": false
   },
   {
+    "type": "RatioHeliumInput",
+    "named": false
+  },
+  {
+    "type": "RatioHeliumInput2",
+    "named": false
+  },
+  {
+    "type": "RatioHeliumOutput",
+    "named": false
+  },
+  {
+    "type": "RatioHeliumOutput2",
+    "named": false
+  },
+  {
     "type": "RatioHydrazine",
+    "named": false
+  },
+  {
+    "type": "RatioHydrazineInput",
+    "named": false
+  },
+  {
+    "type": "RatioHydrazineInput2",
+    "named": false
+  },
+  {
+    "type": "RatioHydrazineOutput",
+    "named": false
+  },
+  {
+    "type": "RatioHydrazineOutput2",
     "named": false
   },
   {
@@ -975,11 +1007,59 @@
     "named": false
   },
   {
+    "type": "RatioHydrochloricAcidInput",
+    "named": false
+  },
+  {
+    "type": "RatioHydrochloricAcidInput2",
+    "named": false
+  },
+  {
+    "type": "RatioHydrochloricAcidOutput",
+    "named": false
+  },
+  {
+    "type": "RatioHydrochloricAcidOutput2",
+    "named": false
+  },
+  {
     "type": "RatioHydrogen",
     "named": false
   },
   {
+    "type": "RatioHydrogenInput",
+    "named": false
+  },
+  {
+    "type": "RatioHydrogenInput2",
+    "named": false
+  },
+  {
+    "type": "RatioHydrogenOutput",
+    "named": false
+  },
+  {
+    "type": "RatioHydrogenOutput2",
+    "named": false
+  },
+  {
     "type": "RatioLiquidAlcohol",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidAlcoholInput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidAlcoholInput2",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidAlcoholOutput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidAlcoholOutput2",
     "named": false
   },
   {
@@ -1007,11 +1087,59 @@
     "named": false
   },
   {
+    "type": "RatioLiquidHydrazineInput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrazineInput2",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrazineOutput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrazineOutput2",
+    "named": false
+  },
+  {
     "type": "RatioLiquidHydrochloricAcid",
     "named": false
   },
   {
+    "type": "RatioLiquidHydrochloricAcidInput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrochloricAcidInput2",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrochloricAcidOutput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrochloricAcidOutput2",
+    "named": false
+  },
+  {
     "type": "RatioLiquidHydrogen",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrogenInput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrogenInput2",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrogenOutput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidHydrogenOutput2",
     "named": false
   },
   {
@@ -1099,6 +1227,22 @@
     "named": false
   },
   {
+    "type": "RatioLiquidOzoneInput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidOzoneInput2",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidOzoneOutput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidOzoneOutput2",
+    "named": false
+  },
+  {
     "type": "RatioLiquidPollutant",
     "named": false
   },
@@ -1123,7 +1267,39 @@
     "named": false
   },
   {
+    "type": "RatioLiquidSilanolInput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidSilanolInput2",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidSilanolOutput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidSilanolOutput2",
+    "named": false
+  },
+  {
     "type": "RatioLiquidSodiumChloride",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidSodiumChlorideInput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidSodiumChlorideInput2",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidSodiumChlorideOutput",
+    "named": false
+  },
+  {
+    "type": "RatioLiquidSodiumChlorideOutput2",
     "named": false
   },
   {
@@ -1211,6 +1387,22 @@
     "named": false
   },
   {
+    "type": "RatioOzoneInput",
+    "named": false
+  },
+  {
+    "type": "RatioOzoneInput2",
+    "named": false
+  },
+  {
+    "type": "RatioOzoneOutput",
+    "named": false
+  },
+  {
+    "type": "RatioOzoneOutput2",
+    "named": false
+  },
+  {
     "type": "RatioPollutant",
     "named": false
   },
@@ -1235,7 +1427,39 @@
     "named": false
   },
   {
+    "type": "RatioPollutedWaterInput",
+    "named": false
+  },
+  {
+    "type": "RatioPollutedWaterInput2",
+    "named": false
+  },
+  {
+    "type": "RatioPollutedWaterOutput",
+    "named": false
+  },
+  {
+    "type": "RatioPollutedWaterOutput2",
+    "named": false
+  },
+  {
     "type": "RatioSilanol",
+    "named": false
+  },
+  {
+    "type": "RatioSilanolInput",
+    "named": false
+  },
+  {
+    "type": "RatioSilanolInput2",
+    "named": false
+  },
+  {
+    "type": "RatioSilanolOutput",
+    "named": false
+  },
+  {
+    "type": "RatioSilanolOutput2",
     "named": false
   },
   {

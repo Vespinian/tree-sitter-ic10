@@ -1,5 +1,5 @@
 {
-  "version": "0.2.6217.27046",
+  "version": "0.2.6228.27061",
   "pages": [
     {
       "Key": "ThingCompositeWallRoundedCornerPanel1",
@@ -3967,6 +3967,62 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -4011,7 +4067,21 @@
           "TotalMolesOutput": "Read",
           "CombustionOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -4178,6 +4248,62 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -4297,7 +4423,21 @@
           "TotalMolesOutput": "Read",
           "CombustionOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -6468,6 +6608,174 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput2><color=orange>RatioHydrogenOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput2><color=orange>RatioLiquidHydrogenOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput2><color=orange>RatioPollutedWaterOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput2><color=orange>RatioHydrazineOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput2><color=orange>RatioLiquidHydrazineOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput2><color=orange>RatioLiquidAlcoholOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput2><color=orange>RatioHeliumOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput2><color=orange>RatioLiquidSodiumChlorideOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput2><color=orange>RatioSilanolOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput2><color=orange>RatioLiquidSilanolOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput2><color=orange>RatioHydrochloricAcidOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput2><color=orange>RatioLiquidHydrochloricAcidOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput2><color=orange>RatioOzoneOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput2><color=orange>RatioLiquidOzoneOutput2</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -6643,7 +6951,49 @@
           "RatioLiquidNitrousOxideOutput": "Read",
           "RatioLiquidNitrousOxideOutput2": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioHydrogenOutput2": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput2": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioPollutedWaterOutput2": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioHydrazineOutput2": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput2": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioLiquidAlcoholOutput2": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioHeliumOutput2": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput2": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioSilanolOutput2": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput2": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioHydrochloricAcidOutput2": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput2": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioOzoneOutput2": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput2": "Read"
         }
       },
       "CircuitHolder": true,
@@ -13781,6 +14131,61 @@
       }
     },
     {
+      "Key": "ThingItemBatteryChargerSmall",
+      "Title": "Battery Charger Small",
+      "Description": "",
+      "PrefabName": "ItemBatteryChargerSmall",
+      "PrefabHash": 1008295833,
+      "BasePowerDraw": null,
+      "MaxPressure": null,
+      "GrowthTime": null,
+      "SlotInserts": [],
+      "LogicInsert": [],
+      "LogicSlotInsert": [],
+      "ModeInsert": [],
+      "ConnectionInsert": [],
+      "ConstructedByKits": [
+        {
+          "NameOfThing": "Battery Charger Small",
+          "PrefabHash": -761772413,
+          "PageLink": "ThingStructureBatteryChargerSmall"
+        }
+      ],
+      "Slots": [],
+      "Item": {
+        "SlotClass": "None",
+        "SortingClass": "Default",
+        "MaxQuantity": 10.0,
+        "Recipes": [
+          {
+            "CreatorPrefabName": "StructureElectronicsPrinter",
+            "TierName": "TierOne",
+            "Iron": 5.0,
+            "Gold": 2.0,
+            "Copper": 2.0,
+            "Time": 10.0,
+            "Energy": 250.0,
+            "Temperature": {
+              "Start": 1.0,
+              "Stop": 80000.0,
+              "IsValid": false
+            },
+            "Pressure": {
+              "Start": 0.0,
+              "Stop": 1000000.0,
+              "IsValid": false
+            },
+            "RequiredMix": {
+              "Rule": 0,
+              "IsAny": true,
+              "IsAnyToRemove": false
+            },
+            "CountTypes": 3
+          }
+        ]
+      }
+    },
+    {
       "Key": "ThingStructureBatteryChargerSmall",
       "Title": "Battery Charger Small",
       "Description": "",
@@ -13987,61 +14392,6 @@
                 "PrefabName": "ItemDrill"
               }
             ]
-          }
-        ]
-      }
-    },
-    {
-      "Key": "ThingItemBatteryChargerSmall",
-      "Title": "Battery Charger Small",
-      "Description": "",
-      "PrefabName": "ItemBatteryChargerSmall",
-      "PrefabHash": 1008295833,
-      "BasePowerDraw": null,
-      "MaxPressure": null,
-      "GrowthTime": null,
-      "SlotInserts": [],
-      "LogicInsert": [],
-      "LogicSlotInsert": [],
-      "ModeInsert": [],
-      "ConnectionInsert": [],
-      "ConstructedByKits": [
-        {
-          "NameOfThing": "Battery Charger Small",
-          "PrefabHash": -761772413,
-          "PageLink": "ThingStructureBatteryChargerSmall"
-        }
-      ],
-      "Slots": [],
-      "Item": {
-        "SlotClass": "None",
-        "SortingClass": "Default",
-        "MaxQuantity": 10.0,
-        "Recipes": [
-          {
-            "CreatorPrefabName": "StructureElectronicsPrinter",
-            "TierName": "TierOne",
-            "Iron": 5.0,
-            "Gold": 2.0,
-            "Copper": 2.0,
-            "Time": 10.0,
-            "Energy": 250.0,
-            "Temperature": {
-              "Start": 1.0,
-              "Stop": 80000.0,
-              "IsValid": false
-            },
-            "Pressure": {
-              "Start": 0.0,
-              "Stop": 1000000.0,
-              "IsValid": false
-            },
-            "RequiredMix": {
-              "Rule": 0,
-              "IsAny": true,
-              "IsAnyToRemove": false
-            },
-            "CountTypes": 3
           }
         ]
       }
@@ -16605,35 +16955,6 @@
       }
     },
     {
-      "Key": "ThingStructureCableJunction6Burnt",
-      "Title": "Burnt Cable (6-Way Junction)",
-      "Description": "",
-      "PrefabName": "StructureCableJunction6Burnt",
-      "PrefabHash": -628145954,
-      "BasePowerDraw": null,
-      "MaxPressure": null,
-      "GrowthTime": null,
-      "SlotInserts": [],
-      "LogicInsert": [],
-      "LogicSlotInsert": [],
-      "ModeInsert": [],
-      "ConnectionInsert": [],
-      "ConstructedByKits": [],
-      "Slots": [],
-      "Structure": {
-        "SmallGrid": true,
-        "BuildStates": [
-          {
-            "ToolExit": [
-              {
-                "PrefabName": "ItemWireCutters"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
       "Key": "ThingStructureCableJunction6HBurnt",
       "Title": "Burnt Cable (6-Way Junction)",
       "Description": "",
@@ -16663,11 +16984,11 @@
       }
     },
     {
-      "Key": "ThingStructureCableCornerHBurnt",
-      "Title": "Burnt Cable (Corner)",
+      "Key": "ThingStructureCableJunction6Burnt",
+      "Title": "Burnt Cable (6-Way Junction)",
       "Description": "",
-      "PrefabName": "StructureCableCornerHBurnt",
-      "PrefabHash": 1931412811,
+      "PrefabName": "StructureCableJunction6Burnt",
+      "PrefabHash": -628145954,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -16697,6 +17018,35 @@
       "Description": "",
       "PrefabName": "StructureCableCornerBurnt",
       "PrefabHash": -177220914,
+      "BasePowerDraw": null,
+      "MaxPressure": null,
+      "GrowthTime": null,
+      "SlotInserts": [],
+      "LogicInsert": [],
+      "LogicSlotInsert": [],
+      "ModeInsert": [],
+      "ConnectionInsert": [],
+      "ConstructedByKits": [],
+      "Slots": [],
+      "Structure": {
+        "SmallGrid": true,
+        "BuildStates": [
+          {
+            "ToolExit": [
+              {
+                "PrefabName": "ItemWireCutters"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": "ThingStructureCableCornerHBurnt",
+      "Title": "Burnt Cable (Corner)",
+      "Description": "",
+      "PrefabName": "StructureCableCornerHBurnt",
+      "PrefabHash": 1931412811,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -29190,6 +29540,118 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -29413,7 +29875,35 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "CircuitHolder": true,
@@ -29867,6 +30357,118 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -30066,7 +30668,35 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "CircuitHolder": true,
@@ -30512,6 +31142,118 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -30695,7 +31437,35 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "CircuitHolder": true,
@@ -34173,6 +34943,210 @@
       }
     },
     {
+      "Key": "ThingStructureConsole",
+      "Title": "Console",
+      "Description": "This control box manages devices such as the <link=ThingStructureActiveVent><color=green>Active Vent</color></link>, <link=ThingStructureGasSensor><color=green>Gas Sensor</color></link> and <link=ThingStructureCompositeDoor><color=green>Composite Door</color></link>, depending on which <link=LogicPage><color=#0080FFFF>circuitboard</color></link> is inserted into the unit. It has a shared data/power port.\nA completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. To enter setup mode, use a {THING: Screwdriver} on the screw on the side of the <link=ThingStructureConsole><color=green>Console</color></link>.",
+      "PrefabName": "StructureConsole",
+      "PrefabHash": 235638270,
+      "BasePowerDraw": "<color=yellow>50 W</color>",
+      "MaxPressure": null,
+      "GrowthTime": null,
+      "SlotInserts": [
+        {
+          "SlotName": "Circuitboard",
+          "SlotType": "Circuitboard",
+          "SlotIndex": "0"
+        }
+      ],
+      "LogicInsert": [
+        {
+          "LogicName": "<link=LogicTypePower><color=orange>Power</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeOpen><color=orange>Open</color></link>",
+          "LogicAccessTypes": "Read Write"
+        },
+        {
+          "LogicName": "<link=LogicTypeError><color=orange>Error</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeActivate><color=orange>Activate</color></link>",
+          "LogicAccessTypes": "Read Write"
+        },
+        {
+          "LogicName": "<link=LogicTypeSetting><color=orange>Setting</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeOn><color=orange>On</color></link>",
+          "LogicAccessTypes": "Read Write"
+        },
+        {
+          "LogicName": "<link=LogicTypeRequiredPower><color=orange>RequiredPower</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypePrefabHash><color=orange>PrefabHash</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeReferenceId><color=orange>ReferenceId</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
+          "LogicAccessTypes": "Read"
+        }
+      ],
+      "LogicSlotInsert": [
+        {
+          "LogicName": "<link=LogicSlotTypeOccupied><color=orange>Occupied</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeOccupantHash><color=orange>OccupantHash</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeQuantity><color=orange>Quantity</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeDamage><color=orange>Damage</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeClass><color=orange>Class</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeMaxQuantity><color=orange>MaxQuantity</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypePrefabHash><color=orange>PrefabHash</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeSortingClass><color=orange>SortingClass</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeReferenceId><color=orange>ReferenceId</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeMode><color=orange>Mode</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeFreeSlots><color=orange>FreeSlots</color></link>",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeTotalSlots><color=orange>TotalSlots</color></link>",
+          "LogicAccessTypes": "0"
+        }
+      ],
+      "ModeInsert": [],
+      "ConnectionInsert": [
+        {
+          "LogicName": "Connection",
+          "LogicAccessTypes": "0"
+        }
+      ],
+      "ConstructedByKits": [],
+      "Slots": [
+        {
+          "SlotClass": "Circuitboard",
+          "StringHash": -1250178723,
+          "StringKey": "CircuitBoard",
+          "SlotName": "Circuitboard"
+        }
+      ],
+      "LogicInfo": {
+        "LogicSlotTypes": {
+          "0": {
+            "Occupied": "Read",
+            "OccupantHash": "Read",
+            "Quantity": "Read",
+            "Damage": "Read",
+            "Class": "Read",
+            "MaxQuantity": "Read",
+            "PrefabHash": "Read",
+            "SortingClass": "Read",
+            "ReferenceId": "Read",
+            "Mode": "ReadWrite",
+            "FreeSlots": "Read",
+            "TotalSlots": "Read"
+          }
+        },
+        "LogicTypes": {
+          "Power": "Read",
+          "Open": "ReadWrite",
+          "Error": "Read",
+          "Activate": "ReadWrite",
+          "Setting": "Read",
+          "On": "ReadWrite",
+          "RequiredPower": "Read",
+          "PrefabHash": "Read",
+          "ReferenceId": "Read",
+          "NameHash": "Read"
+        }
+      },
+      "Device": {
+        "ConnectionList": [
+          [
+            "PowerAndData",
+            "None"
+          ]
+        ],
+        "HasReagents": false,
+        "HasAtmosphere": false,
+        "HasLockState": false,
+        "HasOpenState": true,
+        "HasOnOffState": true,
+        "HasActivateState": true,
+        "HasModeState": false,
+        "HasColorState": false
+      },
+      "Structure": {
+        "SmallGrid": true,
+        "BuildStates": [
+          {
+            "Tool": [
+              {
+                "PrefabName": "ItemKitConsole",
+                "Quantity": 1,
+                "IsTool": false
+              }
+            ],
+            "ToolExit": [
+              {
+                "PrefabName": "ItemDrill"
+              }
+            ]
+          },
+          {
+            "Tool": [
+              {
+                "PrefabName": "ItemGlassSheets",
+                "Quantity": 1,
+                "IsTool": false
+              }
+            ],
+            "ToolExit": [
+              {
+                "PrefabName": "ItemCrowbar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "Key": "ThingModularDeviceConsole",
       "Title": "Console",
       "Description": "A modular equivalent to the <link=ThingStructureConsole><color=green>Console</color></link> for hosting circuitboards.",
@@ -34364,210 +35338,6 @@
             "Tool": [
               {
                 "PrefabName": "ItemKitModularConsoleDisplays",
-                "Quantity": 1,
-                "IsTool": false
-              }
-            ],
-            "ToolExit": [
-              {
-                "PrefabName": "ItemDrill"
-              }
-            ]
-          },
-          {
-            "Tool": [
-              {
-                "PrefabName": "ItemGlassSheets",
-                "Quantity": 1,
-                "IsTool": false
-              }
-            ],
-            "ToolExit": [
-              {
-                "PrefabName": "ItemCrowbar"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Key": "ThingStructureConsole",
-      "Title": "Console",
-      "Description": "This control box manages devices such as the <link=ThingStructureActiveVent><color=green>Active Vent</color></link>, <link=ThingStructureGasSensor><color=green>Gas Sensor</color></link> and <link=ThingStructureCompositeDoor><color=green>Composite Door</color></link>, depending on which <link=LogicPage><color=#0080FFFF>circuitboard</color></link> is inserted into the unit. It has a shared data/power port.\nA completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. To enter setup mode, use a {THING: Screwdriver} on the screw on the side of the <link=ThingStructureConsole><color=green>Console</color></link>.",
-      "PrefabName": "StructureConsole",
-      "PrefabHash": 235638270,
-      "BasePowerDraw": "<color=yellow>50 W</color>",
-      "MaxPressure": null,
-      "GrowthTime": null,
-      "SlotInserts": [
-        {
-          "SlotName": "Circuitboard",
-          "SlotType": "Circuitboard",
-          "SlotIndex": "0"
-        }
-      ],
-      "LogicInsert": [
-        {
-          "LogicName": "<link=LogicTypePower><color=orange>Power</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeOpen><color=orange>Open</color></link>",
-          "LogicAccessTypes": "Read Write"
-        },
-        {
-          "LogicName": "<link=LogicTypeError><color=orange>Error</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeActivate><color=orange>Activate</color></link>",
-          "LogicAccessTypes": "Read Write"
-        },
-        {
-          "LogicName": "<link=LogicTypeSetting><color=orange>Setting</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeOn><color=orange>On</color></link>",
-          "LogicAccessTypes": "Read Write"
-        },
-        {
-          "LogicName": "<link=LogicTypeRequiredPower><color=orange>RequiredPower</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypePrefabHash><color=orange>PrefabHash</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeReferenceId><color=orange>ReferenceId</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
-          "LogicAccessTypes": "Read"
-        }
-      ],
-      "LogicSlotInsert": [
-        {
-          "LogicName": "<link=LogicSlotTypeOccupied><color=orange>Occupied</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeOccupantHash><color=orange>OccupantHash</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeQuantity><color=orange>Quantity</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeDamage><color=orange>Damage</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeClass><color=orange>Class</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeMaxQuantity><color=orange>MaxQuantity</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypePrefabHash><color=orange>PrefabHash</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeSortingClass><color=orange>SortingClass</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeReferenceId><color=orange>ReferenceId</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeMode><color=orange>Mode</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeFreeSlots><color=orange>FreeSlots</color></link>",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeTotalSlots><color=orange>TotalSlots</color></link>",
-          "LogicAccessTypes": "0"
-        }
-      ],
-      "ModeInsert": [],
-      "ConnectionInsert": [
-        {
-          "LogicName": "Connection",
-          "LogicAccessTypes": "0"
-        }
-      ],
-      "ConstructedByKits": [],
-      "Slots": [
-        {
-          "SlotClass": "Circuitboard",
-          "StringHash": -1250178723,
-          "StringKey": "CircuitBoard",
-          "SlotName": "Circuitboard"
-        }
-      ],
-      "LogicInfo": {
-        "LogicSlotTypes": {
-          "0": {
-            "Occupied": "Read",
-            "OccupantHash": "Read",
-            "Quantity": "Read",
-            "Damage": "Read",
-            "Class": "Read",
-            "MaxQuantity": "Read",
-            "PrefabHash": "Read",
-            "SortingClass": "Read",
-            "ReferenceId": "Read",
-            "Mode": "ReadWrite",
-            "FreeSlots": "Read",
-            "TotalSlots": "Read"
-          }
-        },
-        "LogicTypes": {
-          "Power": "Read",
-          "Open": "ReadWrite",
-          "Error": "Read",
-          "Activate": "ReadWrite",
-          "Setting": "Read",
-          "On": "ReadWrite",
-          "RequiredPower": "Read",
-          "PrefabHash": "Read",
-          "ReferenceId": "Read",
-          "NameHash": "Read"
-        }
-      },
-      "Device": {
-        "ConnectionList": [
-          [
-            "PowerAndData",
-            "None"
-          ]
-        ],
-        "HasReagents": false,
-        "HasAtmosphere": false,
-        "HasLockState": false,
-        "HasOpenState": true,
-        "HasOnOffState": true,
-        "HasActivateState": true,
-        "HasModeState": false,
-        "HasColorState": false
-      },
-      "Structure": {
-        "SmallGrid": true,
-        "BuildStates": [
-          {
-            "Tool": [
-              {
-                "PrefabName": "ItemKitConsole",
                 "Quantity": 1,
                 "IsTool": false
               }
@@ -46898,6 +47668,118 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -47049,7 +47931,35 @@
           "RatioLiquidNitrousOxideInput": "Read",
           "RatioLiquidNitrousOxideOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "CircuitHolder": true,
@@ -53799,6 +54709,174 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput2><color=orange>RatioHydrogenInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput2><color=orange>RatioLiquidHydrogenInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput2><color=orange>RatioPollutedWaterInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput2><color=orange>RatioHydrazineInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput2><color=orange>RatioLiquidHydrazineInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput2><color=orange>RatioLiquidAlcoholInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput2><color=orange>RatioHeliumInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput2><color=orange>RatioLiquidSodiumChlorideInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput2><color=orange>RatioSilanolInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput2><color=orange>RatioLiquidSilanolInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput2><color=orange>RatioHydrochloricAcidInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput2><color=orange>RatioLiquidHydrochloricAcidInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput2><color=orange>RatioOzoneInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput2><color=orange>RatioLiquidOzoneInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -53989,7 +55067,49 @@
           "RatioLiquidNitrousOxideInput2": "Read",
           "RatioLiquidNitrousOxideOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenInput2": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenInput2": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterInput2": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineInput2": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineInput2": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholInput2": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumInput2": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideInput2": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolInput2": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolInput2": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidInput2": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidInput2": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneInput2": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneInput2": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "CircuitHolder": true,
@@ -55277,6 +56397,174 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput2><color=orange>RatioHydrogenOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput2><color=orange>RatioLiquidHydrogenOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput2><color=orange>RatioPollutedWaterOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput2><color=orange>RatioHydrazineOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput2><color=orange>RatioLiquidHydrazineOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput2><color=orange>RatioLiquidAlcoholOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput2><color=orange>RatioHeliumOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput2><color=orange>RatioLiquidSodiumChlorideOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput2><color=orange>RatioSilanolOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput2><color=orange>RatioLiquidSilanolOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput2><color=orange>RatioHydrochloricAcidOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput2><color=orange>RatioLiquidHydrochloricAcidOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput2><color=orange>RatioOzoneOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput2><color=orange>RatioLiquidOzoneOutput2</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -55493,7 +56781,49 @@
           "RatioLiquidNitrousOxideOutput": "Read",
           "RatioLiquidNitrousOxideOutput2": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioHydrogenOutput2": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput2": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioPollutedWaterOutput2": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioHydrazineOutput2": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput2": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioLiquidAlcoholOutput2": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioHeliumOutput2": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput2": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioSilanolOutput2": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput2": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioHydrochloricAcidOutput2": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput2": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioOzoneOutput2": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput2": "Read"
         }
       },
       "CircuitHolder": true,
@@ -55876,6 +57206,174 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput2><color=orange>RatioHydrogenOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput2><color=orange>RatioLiquidHydrogenOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput2><color=orange>RatioPollutedWaterOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput2><color=orange>RatioHydrazineOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput2><color=orange>RatioLiquidHydrazineOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput2><color=orange>RatioLiquidAlcoholOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput2><color=orange>RatioHeliumOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput2><color=orange>RatioLiquidSodiumChlorideOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput2><color=orange>RatioSilanolOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput2><color=orange>RatioLiquidSilanolOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput2><color=orange>RatioHydrochloricAcidOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput2><color=orange>RatioLiquidHydrochloricAcidOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput2><color=orange>RatioOzoneOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput2><color=orange>RatioLiquidOzoneOutput2</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -56092,7 +57590,49 @@
           "RatioLiquidNitrousOxideOutput": "Read",
           "RatioLiquidNitrousOxideOutput2": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioHydrogenOutput2": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput2": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioPollutedWaterOutput2": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioHydrazineOutput2": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput2": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioLiquidAlcoholOutput2": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioHeliumOutput2": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput2": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioSilanolOutput2": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput2": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioHydrochloricAcidOutput2": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput2": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioOzoneOutput2": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput2": "Read"
         }
       },
       "CircuitHolder": true,
@@ -57361,6 +58901,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -57765,7 +59361,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -58033,6 +59643,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -58182,7 +59848,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -59593,6 +61273,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -59662,7 +61398,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -59923,6 +61673,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -59992,7 +61798,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -60253,6 +62073,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -60322,7 +62198,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -73053,6 +74943,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -73411,7 +75357,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -106796,6 +108756,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -106865,7 +108881,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -107126,6 +109156,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -107195,7 +109281,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -107456,6 +109556,62 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -107525,7 +109681,21 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -109772,6 +111942,62 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -109878,7 +112104,21 @@
           "TotalMolesOutput": "Read",
           "CombustionOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -117104,7 +119344,7 @@
           "WriteTraderData": {
             "Type": "TraderInstruction",
             "Value": 1,
-            "Description": "<color=white>| <color=red>0-7 </color>     | <color=yellow>OP_CODE</color>                      | <color=orange>BYTE_8</color>     |\r\n| <color=red>8-15 </color>    | <color=yellow>WRITE_INDEX</color>                  | <color=orange>BYTE_8</color>     |\r\n| <color=grey>16-63 </color>   | <color=grey>UNUSED</color>                       | <color=grey>48</color>         |</color>"
+            "Description": "<color=white>| <color=red>0-7 </color>     | <color=yellow>OP_CODE</color>                      | <color=orange>BYTE_8</color>     |\r\n| <color=red>8-15 </color>    | <color=yellow>WRITE_INDEX</color>                  | <color=orange>BYTE_8</color>     |\r\n| <color=red>16-23 </color>   | <color=yellow>CONTACT_ID_AND_MAX_ENTRY_CNT</color> | <color=orange>BYTE_8</color>     |\r\n| <color=red>24-31 </color>   | <color=yellow>EXCLUDE_CONTACT_SLOT_BITFLAG</color> | <color=orange>BYTE_8</color>     |\r\n| <color=red>32-39 </color>   | <color=yellow>EXCLUDE_SHUTTLE_TYPE_BITFLAG</color> | <color=orange>BYTE_8</color>     |\r\n| <color=red>40-47 </color>   | <color=yellow>EXCLUDE_CONTACTED_BITFLAG</color>    | <color=orange>BYTE_8</color>     |\r\n| <color=red>48-55 </color>   | <color=yellow>EXCLUDE_REQUIRED_ENV_BITFLAG</color> | <color=orange>BYTE_8</color>     |\r\n| <color=grey>56-63 </color>   | <color=grey>UNUSED</color>                       | <color=grey>8</color>          |</color>"
           },
           "StrongestContactIdHash": {
             "Type": "TraderInstruction",
@@ -121215,6 +123455,174 @@
         {
           "LogicName": "<link=LogicTypeRatioLiquidOzone><color=orange>RatioLiquidOzone</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput2><color=orange>RatioHydrogenInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput2><color=orange>RatioLiquidHydrogenInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput2><color=orange>RatioPollutedWaterInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput2><color=orange>RatioHydrazineInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput2><color=orange>RatioLiquidHydrazineInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput2><color=orange>RatioLiquidAlcoholInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput2><color=orange>RatioHeliumInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput2><color=orange>RatioLiquidSodiumChlorideInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput2><color=orange>RatioSilanolInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput2><color=orange>RatioLiquidSilanolInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput2><color=orange>RatioHydrochloricAcidInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput2><color=orange>RatioLiquidHydrochloricAcidInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput2><color=orange>RatioOzoneInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput2><color=orange>RatioLiquidOzoneInput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -121419,7 +123827,49 @@
           "RatioHydrochloricAcid": "Read",
           "RatioLiquidHydrochloricAcid": "Read",
           "RatioOzone": "Read",
-          "RatioLiquidOzone": "Read"
+          "RatioLiquidOzone": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenInput2": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenInput2": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterInput2": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineInput2": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineInput2": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholInput2": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumInput2": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideInput2": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolInput2": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolInput2": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidInput2": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidInput2": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneInput2": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneInput2": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "CircuitHolder": true,
@@ -124011,11 +126461,11 @@
       }
     },
     {
-      "Key": "ThingStructurePictureFrameThickLandscapeSmall",
+      "Key": "ThingStructurePictureFrameThickMountLandscapeSmall",
       "Title": "Picture Frame Thick Landscape Small",
       "Description": "",
-      "PrefabName": "StructurePictureFrameThickLandscapeSmall",
-      "PrefabHash": -2041566697,
+      "PrefabName": "StructurePictureFrameThickMountLandscapeSmall",
+      "PrefabHash": 347154462,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -124047,11 +126497,11 @@
       }
     },
     {
-      "Key": "ThingStructurePictureFrameThickMountLandscapeSmall",
+      "Key": "ThingStructurePictureFrameThickLandscapeSmall",
       "Title": "Picture Frame Thick Landscape Small",
       "Description": "",
-      "PrefabName": "StructurePictureFrameThickMountLandscapeSmall",
-      "PrefabHash": 347154462,
+      "PrefabName": "StructurePictureFrameThickLandscapeSmall",
+      "PrefabHash": -2041566697,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -124227,42 +126677,6 @@
       }
     },
     {
-      "Key": "ThingStructurePictureFrameThinLandscapeLarge",
-      "Title": "Picture Frame Thin Landscape Large",
-      "Description": "",
-      "PrefabName": "StructurePictureFrameThinLandscapeLarge",
-      "PrefabHash": -1418288625,
-      "BasePowerDraw": null,
-      "MaxPressure": null,
-      "GrowthTime": null,
-      "SlotInserts": [],
-      "LogicInsert": [],
-      "LogicSlotInsert": [],
-      "ModeInsert": [],
-      "ConnectionInsert": [],
-      "ConstructedByKits": [],
-      "Slots": [],
-      "Structure": {
-        "SmallGrid": true,
-        "BuildStates": [
-          {
-            "Tool": [
-              {
-                "PrefabName": "ItemKitPictureFrame",
-                "Quantity": 1,
-                "IsTool": false
-              }
-            ],
-            "ToolExit": [
-              {
-                "PrefabName": "ItemCrowbar"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
       "Key": "ThingStructurePictureFrameThinMountLandscapeLarge",
       "Title": "Picture Frame Thin Landscape Large",
       "Description": "",
@@ -124299,11 +126713,11 @@
       }
     },
     {
-      "Key": "ThingStructurePictureFrameThinLandscapeSmall",
-      "Title": "Picture Frame Thin Landscape Small",
+      "Key": "ThingStructurePictureFrameThinLandscapeLarge",
+      "Title": "Picture Frame Thin Landscape Large",
       "Description": "",
-      "PrefabName": "StructurePictureFrameThinLandscapeSmall",
-      "PrefabHash": -2024250974,
+      "PrefabName": "StructurePictureFrameThinLandscapeLarge",
+      "PrefabHash": -1418288625,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -124340,6 +126754,42 @@
       "Description": "",
       "PrefabName": "StructurePictureFrameThinMountLandscapeSmall",
       "PrefabHash": -1752493889,
+      "BasePowerDraw": null,
+      "MaxPressure": null,
+      "GrowthTime": null,
+      "SlotInserts": [],
+      "LogicInsert": [],
+      "LogicSlotInsert": [],
+      "ModeInsert": [],
+      "ConnectionInsert": [],
+      "ConstructedByKits": [],
+      "Slots": [],
+      "Structure": {
+        "SmallGrid": true,
+        "BuildStates": [
+          {
+            "Tool": [
+              {
+                "PrefabName": "ItemKitPictureFrame",
+                "Quantity": 1,
+                "IsTool": false
+              }
+            ],
+            "ToolExit": [
+              {
+                "PrefabName": "ItemCrowbar"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": "ThingStructurePictureFrameThinLandscapeSmall",
+      "Title": "Picture Frame Thin Landscape Small",
+      "Description": "",
+      "PrefabName": "StructurePictureFrameThinLandscapeSmall",
+      "PrefabHash": -2024250974,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -124443,11 +126893,11 @@
       }
     },
     {
-      "Key": "ThingStructurePictureFrameThinMountPortraitSmall",
+      "Key": "ThingStructurePictureFrameThinPortraitSmall",
       "Title": "Picture Frame Thin Portrait Small",
       "Description": "",
-      "PrefabName": "StructurePictureFrameThinMountPortraitSmall",
-      "PrefabHash": 1835796040,
+      "PrefabName": "StructurePictureFrameThinPortraitSmall",
+      "PrefabHash": 1684488658,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -124479,11 +126929,11 @@
       }
     },
     {
-      "Key": "ThingStructurePictureFrameThinPortraitSmall",
+      "Key": "ThingStructurePictureFrameThinMountPortraitSmall",
       "Title": "Picture Frame Thin Portrait Small",
       "Description": "",
-      "PrefabName": "StructurePictureFrameThinPortraitSmall",
-      "PrefabHash": 1684488658,
+      "PrefabName": "StructurePictureFrameThinMountPortraitSmall",
+      "PrefabHash": 1835796040,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -128918,6 +131368,62 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -128970,7 +131476,21 @@
           "TotalMolesOutput": "Read",
           "CombustionOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -129147,6 +131667,62 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -129199,7 +131775,21 @@
           "TotalMolesOutput": "Read",
           "CombustionOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -137131,6 +139721,62 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [],
@@ -137171,7 +139817,21 @@
           "TotalMolesOutput": "Read",
           "CombustionOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -137775,6 +140435,174 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenInput><color=orange>RatioHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput2><color=orange>RatioHydrogenOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenInput><color=orange>RatioLiquidHydrogenInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput2><color=orange>RatioLiquidHydrogenOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterInput><color=orange>RatioPollutedWaterInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput2><color=orange>RatioPollutedWaterOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineInput><color=orange>RatioHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput2><color=orange>RatioHydrazineOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineInput><color=orange>RatioLiquidHydrazineInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput2><color=orange>RatioLiquidHydrazineOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholInput><color=orange>RatioLiquidAlcoholInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput2><color=orange>RatioLiquidAlcoholOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumInput><color=orange>RatioHeliumInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput2><color=orange>RatioHeliumOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideInput><color=orange>RatioLiquidSodiumChlorideInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput2><color=orange>RatioLiquidSodiumChlorideOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolInput><color=orange>RatioSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput2><color=orange>RatioSilanolOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolInput><color=orange>RatioLiquidSilanolInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput2><color=orange>RatioLiquidSilanolOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidInput><color=orange>RatioHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput2><color=orange>RatioHydrochloricAcidOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidInput><color=orange>RatioLiquidHydrochloricAcidInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput2><color=orange>RatioLiquidHydrochloricAcidOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneInput><color=orange>RatioOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput2><color=orange>RatioOzoneOutput2</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneInput><color=orange>RatioLiquidOzoneInput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput2><color=orange>RatioLiquidOzoneOutput2</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -137947,7 +140775,49 @@
           "RatioLiquidNitrousOxideOutput": "Read",
           "RatioLiquidNitrousOxideOutput2": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenInput": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioHydrogenOutput2": "Read",
+          "RatioLiquidHydrogenInput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput2": "Read",
+          "RatioPollutedWaterInput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioPollutedWaterOutput2": "Read",
+          "RatioHydrazineInput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioHydrazineOutput2": "Read",
+          "RatioLiquidHydrazineInput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput2": "Read",
+          "RatioLiquidAlcoholInput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioLiquidAlcoholOutput2": "Read",
+          "RatioHeliumInput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioHeliumOutput2": "Read",
+          "RatioLiquidSodiumChlorideInput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput2": "Read",
+          "RatioSilanolInput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioSilanolOutput2": "Read",
+          "RatioLiquidSilanolInput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput2": "Read",
+          "RatioHydrochloricAcidInput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioHydrochloricAcidOutput2": "Read",
+          "RatioLiquidHydrochloricAcidInput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput2": "Read",
+          "RatioOzoneInput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioOzoneOutput2": "Read",
+          "RatioLiquidOzoneInput": "Read",
+          "RatioLiquidOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput2": "Read"
         }
       },
       "CircuitHolder": true,
@@ -168344,6 +171214,62 @@
         {
           "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
           "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrogenOutput><color=orange>RatioHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrogenOutput><color=orange>RatioLiquidHydrogenOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioPollutedWaterOutput><color=orange>RatioPollutedWaterOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrazineOutput><color=orange>RatioHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrazineOutput><color=orange>RatioLiquidHydrazineOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidAlcoholOutput><color=orange>RatioLiquidAlcoholOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHeliumOutput><color=orange>RatioHeliumOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSodiumChlorideOutput><color=orange>RatioLiquidSodiumChlorideOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioSilanolOutput><color=orange>RatioSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidSilanolOutput><color=orange>RatioLiquidSilanolOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioHydrochloricAcidOutput><color=orange>RatioHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidHydrochloricAcidOutput><color=orange>RatioLiquidHydrochloricAcidOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioOzoneOutput><color=orange>RatioOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeRatioLiquidOzoneOutput><color=orange>RatioLiquidOzoneOutput</color></link>",
+          "LogicAccessTypes": "Read"
         }
       ],
       "LogicSlotInsert": [
@@ -168450,7 +171376,21 @@
           "TotalMolesOutput": "Read",
           "CombustionOutput": "Read",
           "ReferenceId": "Read",
-          "NameHash": "Read"
+          "NameHash": "Read",
+          "RatioHydrogenOutput": "Read",
+          "RatioLiquidHydrogenOutput": "Read",
+          "RatioPollutedWaterOutput": "Read",
+          "RatioHydrazineOutput": "Read",
+          "RatioLiquidHydrazineOutput": "Read",
+          "RatioLiquidAlcoholOutput": "Read",
+          "RatioHeliumOutput": "Read",
+          "RatioLiquidSodiumChlorideOutput": "Read",
+          "RatioSilanolOutput": "Read",
+          "RatioLiquidSilanolOutput": "Read",
+          "RatioHydrochloricAcidOutput": "Read",
+          "RatioLiquidHydrochloricAcidOutput": "Read",
+          "RatioOzoneOutput": "Read",
+          "RatioLiquidOzoneOutput": "Read"
         }
       },
       "Device": {
@@ -169724,237 +172664,6 @@
       }
     },
     {
-      "Key": "ThingStructureWaterBottleFillerPoweredBottom",
-      "Title": "Waterbottle Filler",
-      "Description": "",
-      "PrefabName": "StructureWaterBottleFillerPoweredBottom",
-      "PrefabHash": 1986658780,
-      "BasePowerDraw": "<color=yellow>10 W</color>",
-      "MaxPressure": null,
-      "GrowthTime": null,
-      "SlotInserts": [
-        {
-          "SlotName": "Bottle Slot",
-          "SlotType": "Bottle Slot",
-          "SlotIndex": "0"
-        },
-        {
-          "SlotName": "Bottle Slot",
-          "SlotType": "Bottle Slot",
-          "SlotIndex": "1"
-        }
-      ],
-      "LogicInsert": [
-        {
-          "LogicName": "<link=LogicTypePower><color=orange>Power</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeError><color=orange>Error</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeActivate><color=orange>Activate</color></link>",
-          "LogicAccessTypes": "Read Write"
-        },
-        {
-          "LogicName": "<link=LogicTypeOn><color=orange>On</color></link>",
-          "LogicAccessTypes": "Read Write"
-        },
-        {
-          "LogicName": "<link=LogicTypeRequiredPower><color=orange>RequiredPower</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypePrefabHash><color=orange>PrefabHash</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeReferenceId><color=orange>ReferenceId</color></link>",
-          "LogicAccessTypes": "Read"
-        },
-        {
-          "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
-          "LogicAccessTypes": "Read"
-        }
-      ],
-      "LogicSlotInsert": [
-        {
-          "LogicName": "<link=LogicSlotTypeOccupied><color=orange>Occupied</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeOccupantHash><color=orange>OccupantHash</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeQuantity><color=orange>Quantity</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeDamage><color=orange>Damage</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypePressure><color=orange>Pressure</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeTemperature><color=orange>Temperature</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeClass><color=orange>Class</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeMaxQuantity><color=orange>MaxQuantity</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypePrefabHash><color=orange>PrefabHash</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeVolume><color=orange>Volume</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeOpen><color=orange>Open</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeSortingClass><color=orange>SortingClass</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeReferenceId><color=orange>ReferenceId</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeFreeSlots><color=orange>FreeSlots</color></link>",
-          "LogicAccessTypes": "0, 1"
-        },
-        {
-          "LogicName": "<link=LogicSlotTypeTotalSlots><color=orange>TotalSlots</color></link>",
-          "LogicAccessTypes": "0, 1"
-        }
-      ],
-      "ModeInsert": [],
-      "ConnectionInsert": [
-        {
-          "LogicName": "Connection",
-          "LogicAccessTypes": "0"
-        },
-        {
-          "LogicName": "Connection",
-          "LogicAccessTypes": "1"
-        }
-      ],
-      "ConstructedByKits": [],
-      "Slots": [
-        {
-          "SlotClass": "LiquidBottle",
-          "StringHash": -910230123,
-          "StringKey": "BottleSlot",
-          "SlotName": "Bottle Slot"
-        },
-        {
-          "SlotClass": "LiquidBottle",
-          "StringHash": -910230123,
-          "StringKey": "BottleSlot",
-          "SlotName": "Bottle Slot"
-        }
-      ],
-      "LogicInfo": {
-        "LogicSlotTypes": {
-          "0": {
-            "Occupied": "Read",
-            "OccupantHash": "Read",
-            "Quantity": "Read",
-            "Damage": "Read",
-            "Pressure": "Read",
-            "Temperature": "Read",
-            "Class": "Read",
-            "MaxQuantity": "Read",
-            "PrefabHash": "Read",
-            "Volume": "Read",
-            "Open": "ReadWrite",
-            "SortingClass": "Read",
-            "ReferenceId": "Read",
-            "FreeSlots": "Read",
-            "TotalSlots": "Read"
-          },
-          "1": {
-            "Occupied": "Read",
-            "OccupantHash": "Read",
-            "Quantity": "Read",
-            "Damage": "Read",
-            "Pressure": "Read",
-            "Temperature": "Read",
-            "Class": "Read",
-            "MaxQuantity": "Read",
-            "PrefabHash": "Read",
-            "Volume": "Read",
-            "Open": "ReadWrite",
-            "SortingClass": "Read",
-            "ReferenceId": "Read",
-            "FreeSlots": "Read",
-            "TotalSlots": "Read"
-          }
-        },
-        "LogicTypes": {
-          "Power": "Read",
-          "Error": "Read",
-          "Activate": "ReadWrite",
-          "On": "ReadWrite",
-          "RequiredPower": "Read",
-          "PrefabHash": "Read",
-          "ReferenceId": "Read",
-          "NameHash": "Read"
-        }
-      },
-      "Device": {
-        "ConnectionList": [
-          [
-            "PipeLiquid",
-            "None"
-          ],
-          [
-            "PowerAndData",
-            "None"
-          ]
-        ],
-        "HasReagents": false,
-        "HasAtmosphere": false,
-        "HasLockState": false,
-        "HasOpenState": false,
-        "HasOnOffState": true,
-        "HasActivateState": true,
-        "HasModeState": false,
-        "HasColorState": false
-      },
-      "Structure": {
-        "SmallGrid": true,
-        "BuildStates": [
-          {
-            "Tool": [
-              {
-                "PrefabName": "ItemKitWaterBottleFiller",
-                "Quantity": 1,
-                "IsTool": false
-              }
-            ],
-            "ToolExit": [
-              {
-                "PrefabName": "ItemDrill"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
       "Key": "ThingStructureWaterBottleFillerPowered",
       "Title": "Waterbottle Filler",
       "Description": "",
@@ -170150,6 +172859,237 @@
           [
             "PipeLiquid",
             "Input"
+          ],
+          [
+            "PowerAndData",
+            "None"
+          ]
+        ],
+        "HasReagents": false,
+        "HasAtmosphere": false,
+        "HasLockState": false,
+        "HasOpenState": false,
+        "HasOnOffState": true,
+        "HasActivateState": true,
+        "HasModeState": false,
+        "HasColorState": false
+      },
+      "Structure": {
+        "SmallGrid": true,
+        "BuildStates": [
+          {
+            "Tool": [
+              {
+                "PrefabName": "ItemKitWaterBottleFiller",
+                "Quantity": 1,
+                "IsTool": false
+              }
+            ],
+            "ToolExit": [
+              {
+                "PrefabName": "ItemDrill"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Key": "ThingStructureWaterBottleFillerPoweredBottom",
+      "Title": "Waterbottle Filler",
+      "Description": "",
+      "PrefabName": "StructureWaterBottleFillerPoweredBottom",
+      "PrefabHash": 1986658780,
+      "BasePowerDraw": "<color=yellow>10 W</color>",
+      "MaxPressure": null,
+      "GrowthTime": null,
+      "SlotInserts": [
+        {
+          "SlotName": "Bottle Slot",
+          "SlotType": "Bottle Slot",
+          "SlotIndex": "0"
+        },
+        {
+          "SlotName": "Bottle Slot",
+          "SlotType": "Bottle Slot",
+          "SlotIndex": "1"
+        }
+      ],
+      "LogicInsert": [
+        {
+          "LogicName": "<link=LogicTypePower><color=orange>Power</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeError><color=orange>Error</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeActivate><color=orange>Activate</color></link>",
+          "LogicAccessTypes": "Read Write"
+        },
+        {
+          "LogicName": "<link=LogicTypeOn><color=orange>On</color></link>",
+          "LogicAccessTypes": "Read Write"
+        },
+        {
+          "LogicName": "<link=LogicTypeRequiredPower><color=orange>RequiredPower</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypePrefabHash><color=orange>PrefabHash</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeReferenceId><color=orange>ReferenceId</color></link>",
+          "LogicAccessTypes": "Read"
+        },
+        {
+          "LogicName": "<link=LogicTypeNameHash><color=orange>NameHash</color></link>",
+          "LogicAccessTypes": "Read"
+        }
+      ],
+      "LogicSlotInsert": [
+        {
+          "LogicName": "<link=LogicSlotTypeOccupied><color=orange>Occupied</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeOccupantHash><color=orange>OccupantHash</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeQuantity><color=orange>Quantity</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeDamage><color=orange>Damage</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypePressure><color=orange>Pressure</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeTemperature><color=orange>Temperature</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeClass><color=orange>Class</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeMaxQuantity><color=orange>MaxQuantity</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypePrefabHash><color=orange>PrefabHash</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeVolume><color=orange>Volume</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeOpen><color=orange>Open</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeSortingClass><color=orange>SortingClass</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeReferenceId><color=orange>ReferenceId</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeFreeSlots><color=orange>FreeSlots</color></link>",
+          "LogicAccessTypes": "0, 1"
+        },
+        {
+          "LogicName": "<link=LogicSlotTypeTotalSlots><color=orange>TotalSlots</color></link>",
+          "LogicAccessTypes": "0, 1"
+        }
+      ],
+      "ModeInsert": [],
+      "ConnectionInsert": [
+        {
+          "LogicName": "Connection",
+          "LogicAccessTypes": "0"
+        },
+        {
+          "LogicName": "Connection",
+          "LogicAccessTypes": "1"
+        }
+      ],
+      "ConstructedByKits": [],
+      "Slots": [
+        {
+          "SlotClass": "LiquidBottle",
+          "StringHash": -910230123,
+          "StringKey": "BottleSlot",
+          "SlotName": "Bottle Slot"
+        },
+        {
+          "SlotClass": "LiquidBottle",
+          "StringHash": -910230123,
+          "StringKey": "BottleSlot",
+          "SlotName": "Bottle Slot"
+        }
+      ],
+      "LogicInfo": {
+        "LogicSlotTypes": {
+          "0": {
+            "Occupied": "Read",
+            "OccupantHash": "Read",
+            "Quantity": "Read",
+            "Damage": "Read",
+            "Pressure": "Read",
+            "Temperature": "Read",
+            "Class": "Read",
+            "MaxQuantity": "Read",
+            "PrefabHash": "Read",
+            "Volume": "Read",
+            "Open": "ReadWrite",
+            "SortingClass": "Read",
+            "ReferenceId": "Read",
+            "FreeSlots": "Read",
+            "TotalSlots": "Read"
+          },
+          "1": {
+            "Occupied": "Read",
+            "OccupantHash": "Read",
+            "Quantity": "Read",
+            "Damage": "Read",
+            "Pressure": "Read",
+            "Temperature": "Read",
+            "Class": "Read",
+            "MaxQuantity": "Read",
+            "PrefabHash": "Read",
+            "Volume": "Read",
+            "Open": "ReadWrite",
+            "SortingClass": "Read",
+            "ReferenceId": "Read",
+            "FreeSlots": "Read",
+            "TotalSlots": "Read"
+          }
+        },
+        "LogicTypes": {
+          "Power": "Read",
+          "Error": "Read",
+          "Activate": "ReadWrite",
+          "On": "ReadWrite",
+          "RequiredPower": "Read",
+          "PrefabHash": "Read",
+          "ReferenceId": "Read",
+          "NameHash": "Read"
+        }
+      },
+      "Device": {
+        "ConnectionList": [
+          [
+            "PipeLiquid",
+            "None"
           ],
           [
             "PowerAndData",
@@ -170784,6 +173724,35 @@
       }
     },
     {
+      "Key": "ThingCompositeWindow2RoundedBase",
+      "Title": "Window (Base)",
+      "Description": "",
+      "PrefabName": "CompositeWindow2RoundedBase",
+      "PrefabHash": -1686401318,
+      "BasePowerDraw": null,
+      "MaxPressure": null,
+      "GrowthTime": null,
+      "SlotInserts": [],
+      "LogicInsert": [],
+      "LogicSlotInsert": [],
+      "ModeInsert": [],
+      "ConnectionInsert": [],
+      "ConstructedByKits": [],
+      "Slots": [],
+      "Structure": {
+        "SmallGrid": false,
+        "BuildStates": [
+          {
+            "ToolExit": [
+              {
+                "PrefabName": "ItemAngleGrinder"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "Key": "ThingStuctureCompositeWindowRoundedBase",
       "Title": "Window (Base)",
       "Description": "",
@@ -170810,35 +173779,6 @@
                 "IsTool": false
               }
             ],
-            "ToolExit": [
-              {
-                "PrefabName": "ItemAngleGrinder"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Key": "ThingCompositeWindow2RoundedBase",
-      "Title": "Window (Base)",
-      "Description": "",
-      "PrefabName": "CompositeWindow2RoundedBase",
-      "PrefabHash": -1686401318,
-      "BasePowerDraw": null,
-      "MaxPressure": null,
-      "GrowthTime": null,
-      "SlotInserts": [],
-      "LogicInsert": [],
-      "LogicSlotInsert": [],
-      "ModeInsert": [],
-      "ConnectionInsert": [],
-      "ConstructedByKits": [],
-      "Slots": [],
-      "Structure": {
-        "SmallGrid": false,
-        "BuildStates": [
-          {
             "ToolExit": [
               {
                 "PrefabName": "ItemAngleGrinder"
@@ -171376,11 +174316,11 @@
       }
     },
     {
-      "Key": "ThingItemWreckageSteelFragmentSmall",
+      "Key": "ThingItemWreckageStructureWeatherStation",
       "Title": "Wreckage",
       "Description": "",
-      "PrefabName": "ItemWreckageSteelFragmentSmall",
-      "PrefabHash": -178735543,
+      "PrefabName": "ItemWreckageStructureWeatherStation",
+      "PrefabHash": 1013894259,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -171398,11 +174338,11 @@
       }
     },
     {
-      "Key": "ThingItemWreckageStructureWeatherStation",
+      "Key": "ThingItemWreckageLargeExtendableRadiator",
       "Title": "Wreckage",
       "Description": "",
-      "PrefabName": "ItemWreckageStructureWeatherStation",
-      "PrefabHash": 1013894259,
+      "PrefabName": "ItemWreckageLargeExtendableRadiator",
+      "PrefabHash": -964363642,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
@@ -171442,11 +174382,11 @@
       }
     },
     {
-      "Key": "ThingItemWreckageLargeExtendableRadiator",
+      "Key": "ThingItemWreckageSteelFragmentSmall",
       "Title": "Wreckage",
       "Description": "",
-      "PrefabName": "ItemWreckageLargeExtendableRadiator",
-      "PrefabHash": -964363642,
+      "PrefabName": "ItemWreckageSteelFragmentSmall",
+      "PrefabHash": -178735543,
       "BasePowerDraw": null,
       "MaxPressure": null,
       "GrowthTime": null,
