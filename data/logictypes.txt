@@ -35,11 +35,14 @@ CompletionRatio
 ContactSlotIndex
 ContactTypeId
 CurrentCode
+CurrentNodeType
 CurrentResearchPodType
 Density
 DerivativeGain
 DestinationCode
 Discover
+Dispense
+DispenseSlot
 DistanceAu
 DistanceKm
 DrillCondition
@@ -47,6 +50,8 @@ DryMass
 Eccentricity
 ElevatorLevel
 ElevatorSpeed
+EnergyConvected
+EnergyRadiated
 EntityState
 EnvironmentEfficiency
 Error
@@ -64,7 +69,9 @@ ForwardX
 ForwardY
 ForwardZ
 Fuel
+Gravity
 Harvest
+HealthDamage
 Horizontal
 HorizontalRatio
 Idle
@@ -306,7 +313,9 @@ SolarIrradiance
 SoundAlert
 StackSize
 Stress
+StunDamage
 Survey
+TargetNodeType
 TargetPadIndex
 TargetPrefabHash
 TargetSlotIndex

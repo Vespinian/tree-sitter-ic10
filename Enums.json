@@ -1747,6 +1747,51 @@
           "value": 349,
           "deprecated": false,
           "description": "The ratio of <link=GasLiquidOzone><color=#44AD83>Liquid Ozone</color></link> in device's Output2 Atmosphere"
+        },
+        "HealthDamage": {
+          "value": 350,
+          "deprecated": false,
+          "description": "The total amount of health damage on the entity"
+        },
+        "StunDamage": {
+          "value": 351,
+          "deprecated": false,
+          "description": "The amount of stun damage on the entity"
+        },
+        "CurrentNodeType": {
+          "value": 352,
+          "deprecated": false,
+          "description": "Returns the NodeType as an integer for the current location for a Rocket"
+        },
+        "TargetNodeType": {
+          "value": 353,
+          "deprecated": false,
+          "description": "Returns the NodeType as an integer for the target location for a Rocket"
+        },
+        "EnergyConvected": {
+          "value": 354,
+          "deprecated": false,
+          "description": "The energy convected with the surroundings on the last atmospheric tick, in Joules. Positive values remove heat from the internal atmosphere (cooling); negative values add heat."
+        },
+        "EnergyRadiated": {
+          "value": 355,
+          "deprecated": false,
+          "description": "The energy radiated to the surroundings on the last atmospheric tick, in Joules, net of solar heating. Positive values remove heat from the internal atmosphere (cooling); negative values add heat."
+        },
+        "Dispense": {
+          "value": 356,
+          "deprecated": false,
+          "description": "The device will dispense once, used in logic mode for export devices."
+        },
+        "DispenseSlot": {
+          "value": 357,
+          "deprecated": false,
+          "description": "Set to the index of a stored item to dispense that specific item once. The device dispenses it then resets this back to -1. A value of -1 means idle."
+        },
+        "Gravity": {
+          "value": 358,
+          "deprecated": false,
+          "description": "The gravitational acceleration acting on the rocket, in m/s."
         }
       }
     },
@@ -1965,6 +2010,11 @@
         },
         "Maximum": {
           "value": 3,
+          "deprecated": false,
+          "description": ""
+        },
+        "Count": {
+          "value": 4,
           "deprecated": false,
           "description": ""
         }
@@ -3719,6 +3769,51 @@
           "value": 349,
           "deprecated": false,
           "description": "The ratio of <link=GasLiquidOzone><color=#44AD83>Liquid Ozone</color></link> in device's Output2 Atmosphere"
+        },
+        "HealthDamage": {
+          "value": 350,
+          "deprecated": false,
+          "description": "The total amount of health damage on the entity"
+        },
+        "StunDamage": {
+          "value": 351,
+          "deprecated": false,
+          "description": "The amount of stun damage on the entity"
+        },
+        "CurrentNodeType": {
+          "value": 352,
+          "deprecated": false,
+          "description": "Returns the NodeType as an integer for the current location for a Rocket"
+        },
+        "TargetNodeType": {
+          "value": 353,
+          "deprecated": false,
+          "description": "Returns the NodeType as an integer for the target location for a Rocket"
+        },
+        "EnergyConvected": {
+          "value": 354,
+          "deprecated": false,
+          "description": "The energy convected with the surroundings on the last atmospheric tick, in Joules. Positive values remove heat from the internal atmosphere (cooling); negative values add heat."
+        },
+        "EnergyRadiated": {
+          "value": 355,
+          "deprecated": false,
+          "description": "The energy radiated to the surroundings on the last atmospheric tick, in Joules, net of solar heating. Positive values remove heat from the internal atmosphere (cooling); negative values add heat."
+        },
+        "Dispense": {
+          "value": 356,
+          "deprecated": false,
+          "description": "The device will dispense once, used in logic mode for export devices."
+        },
+        "DispenseSlot": {
+          "value": 357,
+          "deprecated": false,
+          "description": "Set to the index of a stored item to dispense that specific item once. The device dispenses it then resets this back to -1. A value of -1 means idle."
+        },
+        "Gravity": {
+          "value": 358,
+          "deprecated": false,
+          "description": "The gravitational acceleration acting on the rocket, in m/s."
         }
       }
     },
@@ -4352,6 +4447,21 @@
         }
       }
     },
+    "FiltrationMode": {
+      "enumName": "FiltrationMode",
+      "values": {
+        "Idle": {
+          "value": 0,
+          "deprecated": false,
+          "description": ""
+        },
+        "Active": {
+          "value": 1,
+          "deprecated": false,
+          "description": ""
+        }
+      }
+    },
     "PowerMode": {
       "enumName": "PowerMode",
       "values": {
@@ -4699,6 +4809,11 @@
           "value": 42,
           "deprecated": false,
           "description": ""
+        },
+        "AutoInjector": {
+          "value": 43,
+          "deprecated": false,
+          "description": ""
         }
       }
     },
@@ -4897,6 +5012,16 @@
         },
         "Deploy": {
           "value": 6,
+          "deprecated": false,
+          "description": ""
+        },
+        "SurfaceScan": {
+          "value": 7,
+          "deprecated": false,
+          "description": ""
+        },
+        "Transfer": {
+          "value": 8,
           "deprecated": false,
           "description": ""
         }
@@ -5292,6 +5417,46 @@
         },
         "String": {
           "value": 1,
+          "deprecated": false,
+          "description": ""
+        }
+      }
+    },
+    "NodeType": {
+      "enumName": "NodeType",
+      "values": {
+        "None": {
+          "value": 0,
+          "deprecated": false,
+          "description": ""
+        },
+        "Entry": {
+          "value": 1,
+          "deprecated": false,
+          "description": ""
+        },
+        "Static": {
+          "value": 2,
+          "deprecated": false,
+          "description": ""
+        },
+        "Generated": {
+          "value": 3,
+          "deprecated": false,
+          "description": ""
+        },
+        "LaunchPad": {
+          "value": 4,
+          "deprecated": false,
+          "description": ""
+        },
+        "LowOrbitHub": {
+          "value": 5,
+          "deprecated": false,
+          "description": ""
+        },
+        "LowOrbitLaunchPad": {
+          "value": 6,
           "deprecated": false,
           "description": ""
         }

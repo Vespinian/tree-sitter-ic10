@@ -1,4 +1,5 @@
 Average
+Count
 Maximum
 Minimum
 Sum

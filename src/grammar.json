@@ -731,6 +731,10 @@
         },
         {
           "type": "STRING",
+          "value": "clamp"
+        },
+        {
+          "type": "STRING",
           "value": "clr"
         },
         {
@@ -903,6 +907,14 @@
         },
         {
           "type": "STRING",
+          "value": "rol"
+        },
+        {
+          "type": "STRING",
+          "value": "ror"
+        },
+        {
+          "type": "STRING",
           "value": "round"
         },
         {
@@ -960,6 +972,10 @@
         {
           "type": "STRING",
           "value": "sgez"
+        },
+        {
+          "type": "STRING",
+          "value": "sgn"
         },
         {
           "type": "STRING",
@@ -1248,6 +1264,10 @@
           },
           {
             "type": "STRING",
+            "value": "CurrentNodeType"
+          },
+          {
+            "type": "STRING",
             "value": "CurrentResearchPodType"
           },
           {
@@ -1265,6 +1285,14 @@
           {
             "type": "STRING",
             "value": "Discover"
+          },
+          {
+            "type": "STRING",
+            "value": "Dispense"
+          },
+          {
+            "type": "STRING",
+            "value": "DispenseSlot"
           },
           {
             "type": "STRING",
@@ -1293,6 +1321,14 @@
           {
             "type": "STRING",
             "value": "ElevatorSpeed"
+          },
+          {
+            "type": "STRING",
+            "value": "EnergyConvected"
+          },
+          {
+            "type": "STRING",
+            "value": "EnergyRadiated"
           },
           {
             "type": "STRING",
@@ -1364,7 +1400,15 @@
           },
           {
             "type": "STRING",
+            "value": "Gravity"
+          },
+          {
+            "type": "STRING",
             "value": "Harvest"
+          },
+          {
+            "type": "STRING",
+            "value": "HealthDamage"
           },
           {
             "type": "STRING",
@@ -2332,7 +2376,15 @@
           },
           {
             "type": "STRING",
+            "value": "StunDamage"
+          },
+          {
+            "type": "STRING",
             "value": "Survey"
+          },
+          {
+            "type": "STRING",
+            "value": "TargetNodeType"
           },
           {
             "type": "STRING",
@@ -2643,6 +2695,10 @@
         },
         {
           "type": "STRING",
+          "value": "Count"
+        },
+        {
+          "type": "STRING",
           "value": "Maximum"
         },
         {
@@ -2867,6 +2923,14 @@
             {
               "type": "STRING",
               "value": "Equals"
+            },
+            {
+              "type": "STRING",
+              "value": "FiltrationMode.Active"
+            },
+            {
+              "type": "STRING",
+              "value": "FiltrationMode.Idle"
             },
             {
               "type": "STRING",
@@ -3290,6 +3354,10 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.CurrentNodeType"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.CurrentResearchPodType"
             },
             {
@@ -3307,6 +3375,14 @@
             {
               "type": "STRING",
               "value": "LogicType.Discover"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.Dispense"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.DispenseSlot"
             },
             {
               "type": "STRING",
@@ -3335,6 +3411,14 @@
             {
               "type": "STRING",
               "value": "LogicType.ElevatorSpeed"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.EnergyConvected"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.EnergyRadiated"
             },
             {
               "type": "STRING",
@@ -3406,7 +3490,15 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.Gravity"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.Harvest"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.HealthDamage"
             },
             {
               "type": "STRING",
@@ -4374,7 +4466,15 @@
             },
             {
               "type": "STRING",
+              "value": "LogicType.StunDamage"
+            },
+            {
+              "type": "STRING",
               "value": "LogicType.Survey"
+            },
+            {
+              "type": "STRING",
+              "value": "LogicType.TargetNodeType"
             },
             {
               "type": "STRING",
@@ -4538,6 +4638,34 @@
             },
             {
               "type": "STRING",
+              "value": "NodeType.Entry"
+            },
+            {
+              "type": "STRING",
+              "value": "NodeType.Generated"
+            },
+            {
+              "type": "STRING",
+              "value": "NodeType.LaunchPad"
+            },
+            {
+              "type": "STRING",
+              "value": "NodeType.LowOrbitHub"
+            },
+            {
+              "type": "STRING",
+              "value": "NodeType.LowOrbitLaunchPad"
+            },
+            {
+              "type": "STRING",
+              "value": "NodeType.None"
+            },
+            {
+              "type": "STRING",
+              "value": "NodeType.Static"
+            },
+            {
+              "type": "STRING",
               "value": "NotEquals"
             },
             {
@@ -4674,7 +4802,15 @@
             },
             {
               "type": "STRING",
+              "value": "RocketMode.SurfaceScan"
+            },
+            {
+              "type": "STRING",
               "value": "RocketMode.Survey"
+            },
+            {
+              "type": "STRING",
+              "value": "RocketMode.Transfer"
             },
             {
               "type": "STRING",
@@ -4727,6 +4863,10 @@
             {
               "type": "STRING",
               "value": "SlotClass.Appliance"
+            },
+            {
+              "type": "STRING",
+              "value": "SlotClass.AutoInjector"
             },
             {
               "type": "STRING",

@@ -44,6 +44,8 @@ EntityState.Dead
 EntityState.Decay
 EntityState.Unconscious
 Equals
+FiltrationMode.Active
+FiltrationMode.Idle
 GasType.Air
 GasType.CarbonDioxide
 GasType.Fuel
@@ -149,11 +151,14 @@ LogicType.CompletionRatio
 LogicType.ContactSlotIndex
 LogicType.ContactTypeId
 LogicType.CurrentCode
+LogicType.CurrentNodeType
 LogicType.CurrentResearchPodType
 LogicType.Density
 LogicType.DerivativeGain
 LogicType.DestinationCode
 LogicType.Discover
+LogicType.Dispense
+LogicType.DispenseSlot
 LogicType.DistanceAu
 LogicType.DistanceKm
 LogicType.DrillCondition
@@ -161,6 +166,8 @@ LogicType.DryMass
 LogicType.Eccentricity
 LogicType.ElevatorLevel
 LogicType.ElevatorSpeed
+LogicType.EnergyConvected
+LogicType.EnergyRadiated
 LogicType.EntityState
 LogicType.EnvironmentEfficiency
 LogicType.Error
@@ -178,7 +185,9 @@ LogicType.ForwardX
 LogicType.ForwardY
 LogicType.ForwardZ
 LogicType.Fuel
+LogicType.Gravity
 LogicType.Harvest
+LogicType.HealthDamage
 LogicType.Horizontal
 LogicType.HorizontalRatio
 LogicType.Idle
@@ -420,7 +429,9 @@ LogicType.SolarIrradiance
 LogicType.SoundAlert
 LogicType.StackSize
 LogicType.Stress
+LogicType.StunDamage
 LogicType.Survey
+LogicType.TargetNodeType
 LogicType.TargetPadIndex
 LogicType.TargetPrefabHash
 LogicType.TargetSlotIndex
@@ -461,6 +472,13 @@ LogicType.VolumeOfLiquid
 LogicType.WattsReachingContact
 LogicType.Weight
 LogicType.WorkingGasEfficiency
+NodeType.Entry
+NodeType.Generated
+NodeType.LaunchPad
+NodeType.LowOrbitHub
+NodeType.LowOrbitLaunchPad
+NodeType.None
+NodeType.Static
 NotEquals
 PowerMode.Charged
 PowerMode.Charging
@@ -495,7 +513,9 @@ RocketMode.Discover
 RocketMode.Invalid
 RocketMode.Mine
 RocketMode.None
+RocketMode.SurfaceScan
 RocketMode.Survey
+RocketMode.Transfer
 SettingDisplayMode.Number
 SettingDisplayMode.String
 ShuttleType.Large
@@ -509,6 +529,7 @@ ShuttleType.Small
 ShuttleType.SmallGas
 SlotClass.AccessCard
 SlotClass.Appliance
+SlotClass.AutoInjector
 SlotClass.Back
 SlotClass.Battery
 SlotClass.Belt
